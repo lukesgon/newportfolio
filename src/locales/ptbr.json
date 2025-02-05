@@ -1,0 +1,15 @@
+{
+  "greetings": "Olá Mundo!",
+  "settingTitle": "Opções",
+  "language": "Idioma",
+  "theme": "Tema",
+  "detail": "Mais Detalhes",
+  "exampleDetail": "Esse é um texto detalhado.",
+  "detailHelpText": "Essa opção serve para revelar ou ocultar outros detalhes sobre minha vida profissional, além de hobbies e outras experiências não diretamente ligadas ao campo da tecnologia.",
+  "stack": "Minha Stack",
+  "tools":"OUTROS",
+  "contact":"Contato",
+  "contactFragment1": "Ou copie clicando em",
+  "contactFragment2": "ou",
+  "phone":"Telefone"
+}

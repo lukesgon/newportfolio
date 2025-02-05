@@ -1,0 +1,15 @@
+{
+  "greetings": "Hello World!",
+  "settingTitle": "Settings",
+  "language": "Language",
+  "theme": "Theme",
+  "detail": "More Details",
+  "exampleDetail": "This is a detailed text.",
+  "detailHelpText": "This option serves to reveal or hide additional details about my professional life, as well as hobbies and other experiences not directly related to the field of technology.",
+  "stack": "My Stack",
+  "tools":"OTHERS",
+  "contact":"Contact",
+  "contactFragment1": "Or just copy by clicking on",
+  "contactFragment2": "or",
+  "phone":"Phone"
+}

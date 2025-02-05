@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+:root {
+  font-family: 'Fira Code', sans-serif;
+
+  --color-0: #1e1e1e;
+  --color-1: #eeeeee;
+  --color-2: #8fc3fa;
+  --color-3: #0962EC;
+  --color-4: #15499f;
+  --ti-cursor-color: var(--color-2);
+  --ti-cursor-font-weight: 1000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  width: 100dvw;
+  height: fit-content;
+  
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  /* background-color: var(--color-0); */
+  color: var(--color-1);
+  overflow-x: hidden;
+  
+}
+
+#root {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.auto-code-name-output {
+  font-size: 2.5rem;
+}
+
+.auto-code-role-output {
+  font-size: 2rem;
+}
+
+@media (orientation: portrait) {
+  .auto-code-name-output {
+    font-size: 1.6rem;
+  }
+
+  .auto-code-role-output {
+    font-size: 1.2rem;
+  }
+}
+
