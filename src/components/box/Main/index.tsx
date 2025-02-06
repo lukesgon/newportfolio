@@ -8,6 +8,7 @@ const StyledMain = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: start;
+  align-items: start;
 
   width: 1024px;
 
