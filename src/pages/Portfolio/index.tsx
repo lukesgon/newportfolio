@@ -6,25 +6,27 @@ import { useLang } from "../../contexts/LangContext";
 import ProjectSection from "../../components/box/ProjectSection";
 
 interface HeaderProps {
-  $theme: ThemeProps
-};
+  $theme: ThemeProps;
+}
 
 const StyledHeader = styled.h1<HeaderProps>`
-  color: ${props=> props.$theme.colors.tertiary};
+  color: ${(props) => props.$theme.colors.tertiary};
   font-size: 2rem;
   padding-bottom: 1rem;
-`
+`;
 
-const Portfolio = ()=> {
-  const {$theme} = useThemeContext();
-  const {library} = useLang();
+const Portfolio = () => {
+  const { $theme } = useThemeContext();
+  const { library } = useLang();
 
-  return(
+  return (
     <Main>
       <StyledHeader $theme={$theme}>{library.portfolioHeader}</StyledHeader>
-      <ProjectSection title="Test">Test</ProjectSection>
+      <ProjectSection title="Front-End" sub="vanilla.js">
+        Test
+      </ProjectSection>
     </Main>
-  )
+  );
 };
 
 export default Portfolio;
