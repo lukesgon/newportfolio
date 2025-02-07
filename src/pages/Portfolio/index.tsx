@@ -27,7 +27,7 @@ const Portfolio = () => {
       <StyledHeader $theme={$theme}>{library.portfolioHeader}</StyledHeader>
       <ProjectSection title="Front-End" sub="vanilla.js">
         <i>{library.vanillaJSDescription}</i>
-        <Section>
+        <Section $direction="row">
           <ProjectSpreader projects={Projects}/>
         </Section>
       </ProjectSection>

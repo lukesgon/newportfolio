@@ -9,6 +9,8 @@ import Resume from './pages/Resume';
 import { LangProvider } from './contexts/LangContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { DetailProvider } from './contexts/DetailContext';
+import ProjectDetail from './pages/ProjectDetail';
+
 
 const router = createBrowserRouter(
   [
@@ -28,6 +30,10 @@ const router = createBrowserRouter(
           path: 'resume',
           element: <Resume />,
         },
+        {
+          path: 'portfolio/:id',
+          element: <ProjectDetail />
+        }
       ]
     }
   ]

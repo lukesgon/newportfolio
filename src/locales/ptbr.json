@@ -15,5 +15,6 @@
   "portfolioHeader": "Meus Projetos",
   "vanillaJSDescription":"Sessão destinada aos meus projetos utilizando tecnologias básicas como HTML, CSS e JavaScript.",
   "projectDetails": "Clique para mais Detalhes",
-  "iFoodProject":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech."
+    "unknownProject":"Projeto não encontrado.",
+    "iFoodProject":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech."
 }

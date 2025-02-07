@@ -1,10 +1,10 @@
 import ProjectCard from "../../box/ProjectCard";
 import { useLang } from "../../../contexts/LangContext";
 
-type Project = {
+export type ProjectProps = {
   id: string;
   name: string;
-  description: string; // <- Contém a key da tradução
+  description: string;
   img: string;
   imgAlt: string;
   techs: string[];
@@ -13,7 +13,7 @@ type Project = {
 };
 
 type Props = {
-  projects: Project[];
+  projects: ProjectProps[];
 };
 
 export default function ProjectSpreader({ projects }: Props) {
@@ -28,7 +28,7 @@ export default function ProjectSpreader({ projects }: Props) {
           imgAlt={e.imgAlt}
           imgSrc={e.img}
           imgCaption={library[e.description]}
-          projectHref={"/"}
+          projectHref={e.preview}
         />
       ))}
     </>
