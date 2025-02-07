@@ -1,0 +1,12 @@
+[
+  {
+    "id":"0",
+    "name":"iFood Landing Page",
+    "description":"iFoodProject",
+    "img":"./src/img/projects/vanilla/iFoodLandingPage.png",
+    "imgAlt":"Preview iFood Landing Page",
+    "techs":["HTML", "CSS"],
+    "repo": "https://github.com/lukesgon/ifood-project-page",
+    "preview": "https://lukesgon.gihub.io/ifood-project-page"
+  }
+]

@@ -14,5 +14,6 @@
   "phone":"Phone",
   "portfolioHeader": "My Projects",
   "vanillaJSDescription":"Section dedicated to my projects using basic technologies such as HTML, CSS, and JavaScript.",
-  "projectDetails": "Click for more Details"
+  "projectDetails": "Click for more Details",
+    "iFoodProject":"This project was developed during the Front-End Development track of the Ada.Tech course."
 }
