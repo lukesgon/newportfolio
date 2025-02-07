@@ -4,6 +4,9 @@ import { useThemeContext } from "../../contexts/ThemeContext";
 import { ThemeProps } from "../../contexts/ThemeContext";
 import { useLang } from "../../contexts/LangContext";
 import ProjectSection from "../../components/box/ProjectSection";
+import ProjectCard from "../../components/box/ProjectCard";
+import Section from "../../components/box/Section";
+import iFoodImg from '../../img/projects/vanilla/iFoodLandingPage.png'
 
 interface HeaderProps {
   $theme: ThemeProps;
@@ -23,7 +26,10 @@ const Portfolio = () => {
     <Main>
       <StyledHeader $theme={$theme}>{library.portfolioHeader}</StyledHeader>
       <ProjectSection title="Front-End" sub="vanilla.js">
-        Test
+        <i>{library.vanillaJSDescription}</i>
+        <Section>
+          <ProjectCard projectTitle="iFood Landing Page" imgCaption="Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech." imgAlt="Preview Ifood Landing Page" imgSrc={iFoodImg} projectHref="/"/>
+        </Section>
       </ProjectSection>
     </Main>
   );

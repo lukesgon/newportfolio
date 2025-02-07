@@ -12,5 +12,7 @@
   "contactFragment1": "Ou copie clicando em",
   "contactFragment2": "ou",
   "phone":"Telefone",
-  "portfolioHeader": "Meus Projetos"
+  "portfolioHeader": "Meus Projetos",
+  "vanillaJSDescription":"Sessão destinada aos meus projetos utilizando tecnologias básicas como HTML, CSS e JavaScript.",
+  "projectDetails": "Clique para mais Detalhes"
 }
