@@ -33,6 +33,13 @@ const StyledHeader = styled.header<StyledHeaderProps>`
   background-color: ${props=> props.$theme.colors.background};
 `
 
+const StyledOutlet = styled(Outlet)`
+  width: 100%;
+  height: fit-content;
+
+  max-width: 100dvw;
+`
+
 const Header = ()=> {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const {$theme} = useThemeContext();
@@ -47,7 +54,7 @@ const Header = ()=> {
         <ImgBox src={Logo} alt='Page Logo' $width="3rem" $height="3rem"/>
         <NavBar />
       </StyledHeader>
-      <Outlet />
+      <StyledOutlet />
       <SettingButton $isActive={settingsOpen} onClick={handleSettings} $theme={$theme}/>
       {settingsOpen && createPortal(<SettingBox />, document.body)}
     </>

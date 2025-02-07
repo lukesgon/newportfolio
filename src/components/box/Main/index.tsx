@@ -11,9 +11,9 @@ const StyledMain = styled.main`
   align-items: start;
 
   width: 1024px;
+  max-width: 100%;
 
-  max-width: 100dvw;
-
+  
   padding: 5rem 1rem;
   
   @media (orientation: portrait) {

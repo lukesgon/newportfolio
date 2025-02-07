@@ -29,6 +29,7 @@ const StyledSection = styled.section<SectionProps>`
   height: ${props=> props.$height && props.$height || 'fit-content'};
   background-color: ${props=> props.$backgroundColor && props.$backgroundColor || 'inherit'};
   color: ${props=> props.$color && props.$color || 'inherit'};
+  max-width: 100%;
   ${props=> props.$custom && props.$custom};
 `
 

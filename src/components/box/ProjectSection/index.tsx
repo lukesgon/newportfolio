@@ -38,7 +38,7 @@ const ProjectSection = ({ children, title, sub }: ProjectSectionProps) => {
         $padding="1rem 0"
         $width="100%"
         $custom="flex-wrap: wrap; gap:24px;"
-        $justify="space-around"
+        $justify="center"
       >
         {children}
       </Section>
