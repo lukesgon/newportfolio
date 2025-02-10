@@ -3,7 +3,7 @@
     "id":"0",
     "name":"iFood Landing Page",
     "description":"iFoodProject",
-    "fullDescription":"",
+    "fullDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac elementum eros. Cras porttitor dui venenatis neque commodo, nec varius ex tincidunt. Aenean id malesuada diam. Pellentesque interdum turpis id nulla feugiat convallis. Pellentesque convallis justo velit, et fringilla leo tristique et. Phasellus aliquam maximus massa, dapibus elementum tortor porta mollis. Duis vel risus erat. Fusce et consectetur arcu, sit amet ullamcorper purus. Integer pulvinar auctor dolor, sed blandit felis malesuada eget. Ut commodo, metus non rutrum euismod, felis diam rutrum ante, vitae placerat est nulla eu velit. Vivamus pellentesque ante vitae posuere eleifend. Aliquam non nisl sit amet ante elementum convallis ut sed ante. Pellentesque in imperdiet augue. Phasellus imperdiet vitae turpis eu faucibus. Vestibulum facilisis mauris lacus, vitae sodales mauris luctus eu. Suspendisse potenti. Curabitur ex enim, congue vitae erat nec, eleifend euismod nisl. Vestibulum quis tortor placerat nibh viverra dictum a non ante. Maecenas fringilla, eros id cursus elementum, nisl risus malesuada lorem, eu ullamcorper dolor odio rhoncus dolor. In consectetur malesuada odio non egestas. Nunc cursus turpis non orci finibus faucibus.",
     "img":"/src/img/projects/vanilla/iFoodLandingPage.png",
     "imgAlt":"Preview iFood Landing Page",
     "techs":["HTML", "CSS"],

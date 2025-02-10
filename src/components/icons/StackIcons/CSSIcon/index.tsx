@@ -7,8 +7,8 @@ const CSSIcon = ({$width, $height}:CSSIconProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={$width || "100"}
-      height={$height || "100"}
+      width={$width || "100%"}
+      height={$height || "100%"}
       viewBox="0 0 1000 1000"
       role="img"
       aria-labelledby="css-logo-title css-logo-description"

@@ -6,8 +6,8 @@ interface NodeIconProps {
 const NodeIcon = ({ $width, $height }: NodeIconProps) => {
   return (
     <svg
-      width={$width || "92px"}
-      height={$height || "92px"}
+      width={$width || "100%"}
+      height={$height || "100%"}
       viewBox="-13 0 282 282"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMinYMin meet"

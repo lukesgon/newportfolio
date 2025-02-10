@@ -68,7 +68,7 @@ const MyStack = () => {
         $backgroundColor="transparent"
         $border="solid 3px var(--color-3)"
         $height="450px"
-        $custom="max-width: 92vw; min-height:fit-content; @media (orientation:portrait){flex-direction: column; height: 50vh; max-height: 450px }"
+        $custom="min-height:fit-content; @media (orientation:portrait){flex-direction: column; height: 50vh; max-height: 450px }"
       >
         <StackSection
           $title="FRONT-END"
