@@ -15,7 +15,7 @@ const TechSpreader = ({ project }: TechSpreaderProps) => {
   if (stack.length) {
     return stack.map((e) => (
       <Section key={e.name} $align="center" $custom="gap:5px; font-weight: bold;" $color={$theme.colors.tertiary}>
-        <IconBox $width={3} $height={3}>
+        <IconBox $width={4} $height={4}>
           <e.component /> {/* aqui ele está buscando o component contido dentro do tech, la do techlist.ts, para então renderiza-lo diretamente */}
         </IconBox>
         <small>{e.name}</small>
