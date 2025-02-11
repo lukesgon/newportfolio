@@ -22,19 +22,19 @@ const ProjectDetail = () => {
 
   return (
     <Main>
-      <Section $width="100%" $custom="border-bottom: solid 3px var(--color-3);">
+      <Section $color="var(--color-3)"$width="100%" $custom="border-bottom: solid 3px var(--color-3);">
         <h1>{project.name}</h1>
       </Section>
-      <Section $custom="@media (orientation: portrait) {flex-direction: column-reverse;}">
-        <Section $custom="gap: 1rem;">
+      <Section $custom="@media (orientation: portrait) {flex-direction: column-reverse;}" $width="100%" $align="center">
+        <Section $custom="gap: 1rem;" $width="100%" $align="center">
           <Section $custom="padding-top: 1rem;">
-            {project.fullDescription}
+            {library[project.fullDescription]}
           </Section>
-          <Section $width="100%" $height="fitcontent">
-            <TechBox project={project} $width="100%" />
+          <Section $width="100%" $height="fitcontent" $align="center">
+            <TechBox project={project} $width="fit-content" />
             <Section $direction="row" $justify="center" $align="center" $width="100%" $custom="gap: 1rem;" $padding="1rem 0">
-              <ProjectLink href={project.preview} target="_blank">Prévia</ProjectLink>
-              <ProjectLink href={project.repo} target="_blank">Projeto</ProjectLink>
+              <ProjectLink href={project.preview} target="_blank">{library.previewButton}</ProjectLink>
+              <ProjectLink href={project.repo} target="_blank">{library.repoButton}</ProjectLink>
             </Section>
           </Section>
         </Section>

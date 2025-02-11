@@ -13,7 +13,7 @@ const TechBox = ({project, $width, $height}:TechBoxProps)=> {
   const {library} = useLang();
 
   return(
-    <Section $direction="column" $width={$width || 'fit-content'} $height={$height || '100%'} $justify="center" $border="solid 3px var(--color-3)" $custom="min-width: 50%; @media (orientation: portrait){width: 100%}">
+    <Section $direction="column" $width={$width || 'fit-content'} $height={$height || '100%'} $justify="center" $border="solid 3px var(--color-3)" $custom="min-width: 50%; max-width: 1024px; @media (orientation: portrait){width: 100%}">
       <Section $width="100%" $align="center" $color="var(--color-2)" $backgroundColor="var(--color-3)" $padding="0.3rem 0.5rem">
         <h4>{library.projectTechs}</h4>
       </Section>

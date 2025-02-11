@@ -16,6 +16,9 @@
   "vanillaJSDescription":"Sessão destinada aos meus projetos utilizando tecnologias básicas como HTML, CSS e JavaScript.",
   "projectDetails": "Clique para mais Detalhes",
   "projectTechs": "Tecnologias",
+  "previewButton":"Prévia",
+  "repoButton":"Projeto",
     "unknownProject":"Projeto não encontrado.",
-    "iFoodProject":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech."
+    "iFoodProject":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech.",
+    "iFoodProjectFullDescription":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech. A proposta deste exercício, era a emulação de uma landing page para o Ifood, contando com o uso de tecnologias essenciais para o desenvolvimento front-end, como HTML e CSS. Seguindo um padrão de página única, também conhecido como SPA, a ideia foi criar uma estrutura responsiva, que servisse para o desenvolvimento de técnicas fundamentais de desenvolvimento. É importante destacar ainda, sua característica estática, visto que o exercício foi realizado sem a adoção de JavaScript em seu desenvolvimento."
 }

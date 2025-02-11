@@ -3,7 +3,7 @@
     "id":"0",
     "name":"iFood Landing Page",
     "description":"iFoodProject",
-    "fullDescription":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech. A proposta deste exercício, era a emulação de uma landing page para o Ifood, contando com o uso de tecnologias essenciais para o desenvolvimento front-end, como HTML e CSS. Seguindo um padrão de página única, também conhecido como SPA, a ideia foi criar uma estrutura responsiva, que servisse para o desenvolvimento de técnicas fundamentais de desenvolvimento. É importante destacar ainda, sua característica estática, visto que o exercício foi realizado sem a adoção de JavaScript em seu desenvolvimento.",
+    "fullDescription":"iFoodProjectFullDescription",
     "img":"/src/img/projects/vanilla/iFoodLandingPage.webp",
     "imgAlt":"Preview iFood Landing Page",
     "techs":["HTML", "CSS"],

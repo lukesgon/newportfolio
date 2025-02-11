@@ -123,7 +123,7 @@ const ContactBox = ({ $setIsOpen }: ContactBoxProps) => {
           </Section>
           <Section $padding="0.5rem">
             <StyledContactAnchor
-              href="mailto:lucasdasgoncalves@gmail.com"
+              href="mailto:lucasSG.dev@gmail.com"
               target="_blank"
             >
               <IconBox $width={4} $height={5}>
@@ -155,7 +155,7 @@ const ContactBox = ({ $setIsOpen }: ContactBoxProps) => {
         <StyledSmall>
           {library.contactFragment1}{" "}
           <StyledSimpleButton
-            onClick={() => copyText("lucasdasgoncalves@gmail.com")}
+            onClick={() => copyText("lucasSG.dev@gmail.com")}
           >
             Email
           </StyledSimpleButton>{" "}
