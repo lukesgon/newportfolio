@@ -5,6 +5,7 @@ import { useLang } from "../../contexts/LangContext";
 import Section from "../../components/box/Section";
 import ImgBox from "../../components/box/ImgBox";
 import TechBox from "../../components/box/TechBox";
+import ProjectLink from "../../components/buttons/ProjectLink";
 
 const ProjectDetail = () => {
   const { library } = useLang();
@@ -19,45 +20,26 @@ const ProjectDetail = () => {
     );
   }
 
-  const portraitStyle = `
-    @media (orientation: portrait) {
-      flex-wrap: wrap;
-      flex-direction: column-reverse;
-      justify-content: start;
-      align-items: center
-    }
-  `;
-
   return (
     <Main>
       <Section $width="100%" $custom="border-bottom: solid 3px var(--color-3);">
         <h1>{project.name}</h1>
       </Section>
-      <Section
-        $direction="row"
-        $width="100%"
-        $padding="1rem 0"
-        $custom={portraitStyle}
-      >
-        <Section
-          $width="65%"
-          $padding="0 1.5rem 0 0"
-          $custom="@media (orientation: portrait){width: 100%;}"
-        >
-          {project.fullDescription}
+      <Section $custom="@media (orientation: portrait) {flex-direction: column-reverse;}">
+        <Section $custom="gap: 1rem;">
+          <Section $custom="padding-top: 1rem;">
+            {project.fullDescription}
+          </Section>
+          <Section $width="100%" $height="fitcontent">
+            <TechBox project={project} $width="100%" />
+            <Section $direction="row" $justify="center" $align="center" $width="100%" $custom="gap: 1rem;" $padding="1rem 0">
+              <ProjectLink href={project.preview} target="_blank">Prévia</ProjectLink>
+              <ProjectLink href={project.repo} target="_blank">Projeto</ProjectLink>
+            </Section>
+          </Section>
         </Section>
-        <Section
-          $width="35%"
-          $custom="@media (orientation: portrait){width: 100%;}"
-        >
-          <ImgBox
-            src={project.img}
-            alt={project.imgAlt}
-            $width="100%"
-            $height="auto"
-            $custom="border: solid 3px var(--color-3)"
-          />
-          <TechBox project={project} />
+        <Section $padding="1rem 0">
+          <ImgBox src={project.img} alt={project.imgAlt} $custom="border: solid 3px var(--color-3); @media (orientation:landscape) {width: 70%; height: auto;}"/>
         </Section>
       </Section>
     </Main>

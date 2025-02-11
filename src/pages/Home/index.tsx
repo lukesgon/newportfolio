@@ -1,6 +1,6 @@
 import Main from "../../components/box/Main";
 import ImgBox from "../../components/box/ImgBox";
-import Thumb from '../../img/lucas-dev.jpg';
+import Thumb from '../../img/lucas-dev.webp';
 // import { useLang } from "../../contexts/LangContext";
 // import { useDetailsContext } from "../../contexts/DetailContext";
 import Section from "../../components/box/Section";

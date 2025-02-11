@@ -10,6 +10,7 @@ export type ProjectProps = {
   techs: string[];
   repo: string;
   preview: string;
+  detail: string;
 };
 
 type Props = {
@@ -28,7 +29,7 @@ export default function ProjectSpreader({ projects }: Props) {
           imgAlt={e.imgAlt}
           imgSrc={e.img}
           imgCaption={library[e.description]}
-          projectHref={e.preview}
+          projectHref={e.detail}
         />
       ))}
     </>

@@ -9,7 +9,7 @@ interface ImgBoxProps {
   $custom?: string,
 }
 
-const StyledFigure = styled.figure`
+const StyledFigure = styled.figure<Partial<ImgBoxProps>>`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,8 +26,8 @@ const StyledFigure = styled.figure`
 `;
 
 const StyledImg = styled.img<Partial<ImgBoxProps>>`
-  width: ${props=> props.$width || '100px'};
-  height: ${props=> props.$height || '100px'};
+  width: ${props=> props.$width || '100%'};
+  height: ${props=> props.$height || '100%'};
   
   ${props=> props.$custom && props.$custom};
 `
