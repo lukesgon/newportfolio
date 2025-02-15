@@ -20,5 +20,117 @@
   "repoButton":"Project",
     "unknownProject":"Unkown Project.",
     "iFoodProject":"This project was developed during the Front-End Development track of the Ada.Tech course.",
-    "iFoodProjectFullDescription":"This project was developed during the Front-End Development track of the Ada.Tech course. The objective of this exercise was to emulate a landing page for iFood, utilizing essential front-end development technologies such as HTML and CSS. Following a single-page structure, also known as SPA, the goal was to create a responsive layout that served as a foundation for fundamental development techniques. It is also important to highlight its static nature, as the exercise was carried out without the use of JavaScript in its implementation."
+    "iFoodProjectFullDescription":"This project was developed during the Front-End Development track of the Ada.Tech course. The objective of this exercise was to emulate a landing page for iFood, utilizing essential front-end development technologies such as HTML and CSS. Following a single-page structure, also known as SPA, the goal was to create a responsive layout that served as a foundation for fundamental development techniques. It is also important to highlight its static nature, as the exercise was carried out without the use of JavaScript in its implementation.",
+  "resumeTitle":"About Me",
+
+  "aboutMeSection":"Introduction",
+  "aboutMe1": "I am a web developer from Pelotas, RS. I started my journey as a building technician, then pursued a degree in architecture and urbanism, but my true passion has always been technology.",
+  "aboutMe2": "Throughout my journey, I discovered the ability to turn challenges into opportunities. By exploring, for example, the world of 3D printing on my own, I found new dimensions of autonomy and problem-solving.",
+  "aboutMe3": "Currently, I am committed to applying concepts acquired in architecture, such as interpreting multidisciplinary challenges, to web development. I always seek innovative perspectives while ensuring practical and accurate solutions for the projects I engage in.",
+  "aboutMe4": "I have had the opportunity to take courses such as an introduction to web development through Faculdade Descomplica and recently completed the Front-end Development course at Ada.Tech, securing my spot after a long and competitive selection process.",
+  "aboutMe5": "I consider myself naturally curious and highly value generalism. I am capable of developing using technologies such as HTML5, CSS3, and JavaScript, as well as libraries and frameworks like React, Styled Components, and Bootstrap.",
+
+  "educationSection":"Education",
+    
+    "educationDegree":"Bachelor's Degree in Architecture and Urbanism",
+    "educationDegreeInstituition":"Federal University of Pelotas",
+    "educationDegreeYear":"(2013 - 2024)",
+    "educationDegreeDetail":"Degree in Architecture and Urbanism, with extensive experience in the field of urban planning, especially in the use of GIS technologies for georeferenced mapping.",
+    
+    "educationTechnical": "Building Technician",
+    "educationTechnicalInstituition": "Federal Institute of Rio Grande do Sul",
+    "educationTechnicalYear": "(2009 - 2013)",
+    "educationTechnicalDetail": "Training as a building technician, completed in an integrated format with high school.",
+
+  "professionalSection":"Experiência Profissional",
+    
+    "itTechnician":"I.T. Technician",
+    "itTechnicianCompany":"Self-Employed",
+    "itTechnicianYear":"(2022 - Present)",
+    "itTechnicianDetail":"Services for Desktops and Laptops: Formatting and Refurbishing, Assembly, Cleaning, and Maintenance",
+
+    "operationalAssistant":"Operational Assistant",
+    "operationalAssistantCompany":"Brazilian Postal and Telegraph Company",
+    "operationalAssistantYear":"(2024 - 2025)",
+    "operationalAssistantDetail":"Assistance in sorting and logistics for the distribution of textbooks to municipal and state schools in Pelotas and the surrounding region.",
+
+    "mailCarrier":"Mail Carrier",
+    "mailCarrierCompany":"Brazilian Postal and Telegraph Company",
+    "mailCarrierYear":"(2024)",
+    "mailCarrierDetail":"Works as a package and mail delivery driver, in addition to assisting in package sorting, both for distribution within the city of Pelotas and for dispatch to other locations.",
+
+    "pontoX":"Intern",
+    "pontoXCompany":"Ponto X - Architecture",
+    "pontoXYear":"(2021 - 2022)",
+    "pontoXDetail":"Execution of technical drawings, architectural and interior design projects, 3D modeling and rendering, as well as coordination of the intern team.",
+
+    "gelsonProject":"Website do Chaveiro Gelson",
+    "gelsonProjectDetail": "Page developed with vanilla technologies (HTML, CSS, and pure JavaScript), to showcase the company's services, also featuring a tool to simplify the budgeting process for clients, through the use of the WhatsApp API.",
+
+    "gelsonCompany":"Attendant and Locksmith",
+    "gelsonCompanyCompany":"Chaveiro Gelson",
+    "gelsonCompanyYear":"(2019 - 2021)",
+    "gelsonCompanyDetail":"Counter attendant services, key duplication, and residential and automotive lockouts.",
+
+    "internUrbanMetrics":"Academic Intern - UrbanMetrics Help",
+    "internUrbanMetricsCompany":"FAUrb Urban Lab",
+    "internUrbanMetricsYear":"(2020 - 2021)",
+    "internUrbanMetricsDetail":"Co-authorship, writing, and editing of the Help for the UrbanMetrics software, based on the studies of Professor Maurício Polidori, on urban topological measures.",
+
+    "gersonZaffalon":"Intern",
+    "gersonZaffalonCompany":"Gerson Zaffalon - Architecture",
+    "gersonZaffalonYear":"(2019 - 2020)",
+    "gersonZaffalonDetail":"Execution of technical drawings, architectural and interior design projects, 3D modeling and rendering.",
+
+    "hervalPlanning":"Academic Intern - Urban Planning of Herval",
+    "hervalPlanningCompany":"FAUrb Urban Lab",
+    "hervalPlanningYear":"(2019)",
+    "hervalPlanningDetail":"Conducting field surveys, studying population and demographic data, as well as creating maps and producing georeferenced content in partnership with the Herval city hall.",
+
+    "fuelStation":"Fuel Station Attendent",
+    "fuelStationCompany":"Posto da Rótula",
+    "fuelStationYear":"(2018 - 2019)",
+    "fuelStationDetail":"Customer service. Fueling and cleaning vehicles.",
+
+    "candiotaPlanning":"Intern - Urban Planning of Candiota",
+    "candiotaPlanningCompany":"FAUrb Urban Lab",
+    "candiotaPlanningYear":"(2018)",
+    "candiotaPlanningDetail":"Conducting field surveys, studying population and demographic data, as well as creating maps and producing georeferenced content in partnership with the Candiota city hall.",
+
+    "chuyPlanning":"Intern - Urban Planning of Chuy",
+    "chuyPlanningCompany":"FAUrb Urban Lab",
+    "chuyPlanningYear":"(2017)",
+    "chuyPlanningDetail":"Conducting field surveys, studying population and demographic data, as well as creating maps and producing georeferenced content in partnership with the Chuy city hall.",
+
+    "internLab":"Intern - Lab Assistant",
+    "internLabCompany":"FAUrb Urban Lab",
+    "internLabYear":"(2016)",
+    "internLabDetail":"Maintenance and assistance with the use of computers and laboratory equipment, as well as inventory management and access control for professors and students.",
+
+    "atelieIntern":"Intern",
+    "atelieInternCompany":"Ateliê Architecture",
+    "atelieInternYear":"(2014)",
+    "atelieInternDetail":"Execution of technical drawings, architectural and interior design projects, 3D modeling and rendering.",
+
+    "martinsIntern":"Intern",
+    "martinsInternCompany":"Engineer Martins' Office",
+    "martinsInternYear":"(2012 - 2013)",
+    "martinsInternDetail":"Drafting of technical drawings. Execution of GIS data processing and organization of documentation for regulation with INCRA.",
+
+  "freeEducationSection":"Courses and Certifications",
+
+    "adaTech":"Vem Ser Tech - Front-End Development Program",
+    "adaTechCompany":"Ada.Tech",
+    "adaTechYear":"(2023 - 2024)",
+    "adaTechDetail":"Extensive course covering Static and Dynamic Web Project disciplines, including the use of technologies such as TypeScript, Bootstrap, and React.",
+
+    "descomplica":"Introduction to Front-End Development",
+    "descomplicaCompany":"Faculdade Descomplica",
+    "descomplicaYear":"(2023)",
+    "descomplicaDetail":"Introduction to Web Development, with a special focus on static pages and essential technologies such as HTML, CSS, and JavaScript.",
+    
+    "origamidUIBegin": "UI Design para Iniciantes",
+    "origamidUIBeginCompany":"Origamid",
+    "origamidUIBeginYear":"(2024)",
+    "origamidUIBeginDetail":"Curso de UI Design para iniciantes, abordando conceitos básicos e avançados de design de interface, começando do zero e utilizando ferramentas como Figma para a criação de protótipos."
 }

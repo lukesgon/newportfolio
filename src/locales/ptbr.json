@@ -20,5 +20,118 @@
   "repoButton":"Projeto",
     "unknownProject":"Projeto não encontrado.",
     "iFoodProject":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech.",
-    "iFoodProjectFullDescription":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech. A proposta deste exercício, era a emulação de uma landing page para o Ifood, contando com o uso de tecnologias essenciais para o desenvolvimento front-end, como HTML e CSS. Seguindo um padrão de página única, também conhecido como SPA, a ideia foi criar uma estrutura responsiva, que servisse para o desenvolvimento de técnicas fundamentais de desenvolvimento. É importante destacar ainda, sua característica estática, visto que o exercício foi realizado sem a adoção de JavaScript em seu desenvolvimento."
+    "iFoodProjectFullDescription":"Este projeto foi desenvolvido durante a trilha de Desenvolvimento Front-End do curso Ada.Tech. A proposta deste exercício, era a emulação de uma landing page para o Ifood, contando com o uso de tecnologias essenciais para o desenvolvimento front-end, como HTML e CSS. Seguindo um padrão de página única, também conhecido como SPA, a ideia foi criar uma estrutura responsiva, que servisse para o desenvolvimento de técnicas fundamentais de desenvolvimento. É importante destacar ainda, sua característica estática, visto que o exercício foi realizado sem a adoção de JavaScript em seu desenvolvimento.",
+
+  "resumeTitle":"Sobre Mim",
+
+  "aboutMeSection":"Apresentação",
+  "aboutMe1":"Sou um desenvolvedor web originário de Pelotas, RS. Iniciei minha trajetória como técnico em edificações, seguindo para a graduação em arquitetura e urbanismo, porém minha verdadeira paixão sempre foi a tecnologia.",
+  "aboutMe2":"Ao longo da minha trajetória descobri a capacidade de transformar desafios em oportunidades. Explorando, por exemplo, o mundo da impressão 3D por conta própria, descobri novas dimensões de autonomia e resolução de problemas.",
+  "aboutMe3":"Atualmente, estou comprometido em aplicar noções adquiridas na arquitetura, como a interpretação de desafios multidisciplinares, para o desenvolvimento web. Busco sempre perspectivas inovadoras, mas com soluções práticas e acuradas para os projetos em que me envolvo.",
+  "aboutMe4":"Já tive a oportunidade de participar de cursos como a introdução ao desenvolvimento web, através da Faculdade Descomplica, tendo concluído recentemente o curso Desenvolvimento Front-end junto à Ada.Tech, com sua vaga garantida após um longo e concorrido processo de seleção.",
+  "aboutMe5":"Me considero curioso por natureza, valorizando muito o generalismo. Sou capaz de desenvolver fazendo uso de tecnologias como HTML5, CSS3, JavaScript, além de bibliotecas e frameworks como React, Styled Components e BootStrap.",
+
+  "educationSection":"Formação",
+
+    "educationDegree":"Bacharelado em Arquitetura e Urbanismo",
+    "educationDegreeInstituition":"Universidade Federal de Pelotas",
+    "educationDegreeYear":"(2013 - 2024)",
+    "educationDegreeDetail":"Formação como Arquiteto e Urbanista, com ampla experiência no campo do urbanismo, especialmente na utilização de tecnologias SIG para mapeamento georreferenciado.",
+
+    "educationTechnical":"Técnico em Edificações",
+    "educationTechnicalInstituition":"Instituto Federal Sul-Rio-Grandense",
+    "educationTechnicalYear":"(2009 - 2013)",
+    "educationTechnicalDetail":"Formação como técnico em edificações, cursada no formato integrado ao ensino médio.",
+
+  "professionalSection":"Experiência Profissional",
+    
+    "itTechnician":"Técnico de Informática", 
+    "itTechnicianCompany":"Autônomo",
+    "itTechnicianYear":"(2022 - Presente)",
+    "itTechnicianDetail":"Serviços para Desktops e Notebooks: Formatação e Recondicionamento, Montagem, Limpeza e Manutenção.",
+    
+    "operationalAssistant":"Assistente Operacional",
+    "operationalAssistantCompany":"Empresa Brasileira de Correios e Telégrafos",
+    "operationalAssistantYear":"(2024 - 2025)",
+    "operationalAssistantDetail":"Auxílio na triagem e logística para distribuição de livros didáticos para escolas municipais e estaduais de Pelotas e região.",
+
+    "mailCarrier":"Carteiro",
+    "mailCarrierCompany":"Empresa Brasileira de Correios e Telégrafos",
+    "mailCarrierYear":"(2024)",
+    "mailCarrierDetail":"Atuação como entregador de encomendas e correspondências, além de auxiliar na triagem de pacotes, tanto para distribuição dentro da cidade de Pelotas quanto para despacho para outros locais.",
+
+    "pontoX":"Estagiário",
+    "pontoXCompany":"Ponto X - Arquitetura",
+    "pontoXYear":"(2021 - 2022)",
+    "pontoXDetail":"Execução de desenhos técnicos, projetos de arquitetura e interiores, modelagem 3D e renderização, além da coordenação da equipe de estagiários.",
+
+    "gelsonProject":"Website do Chaveiro Gelson",
+    "gelsonProjectDetail":"Página desenvolvida com tecnologias vanilla (HTML, CSS e JavaScript puro) para apresentação dos serviços da empresa, contando também com uma ferramenta para facilitar o processo de orçamento dos clientes por meio da API do WhatsApp.",
+
+    "gelsonCompany":"Atendente e Chaveiro",
+    "gelsonCompanyCompany":"Chaveiro Gelson",
+    "gelsonCompanyYear":"(2019 - 2021)",
+    "gelsonCompanyDetail":"Atendimento no balcão, cópia de chaves e abertura de fechaduras residenciais e automotivas.",
+
+    "internUrbanMetrics":"Estagiário Acadêmico - UrbanMetrics Help",
+    "internUrbanMetricsCompany":"FAUrb Urban Lab",
+    "internUrbanMetricsYear":"(2020 - 2021)",
+    "internUrbanMetricsDetail":"Coautoria, redação e edição do Help para o software UrbanMetrics, baseado nos estudos do professor Maurício Polidori sobre medidas topológicas urbanas.",
+
+    "gersonZaffalon":"Estagiário",
+    "gersonZaffalonCompany":"Gerson Zaffalon - Arquitetura",
+    "gersonZaffalonYear":"(2019 - 2020)",
+    "gersonZaffalonDetail":"Execução de desenhos técnicos, projetos de arquitetura e interiores, modelagem 3D e renderização.",
+
+    "hervalPlanning":"Estagiário Acadêmico - Planejamento Urbano de Herval",
+    "hervalPlanningCompany":"FAUrb Urban Lab",
+    "hervalPlanningYear":"(2019)",
+    "hervalPlanningDetail":"Realização de levantamentos de campo, estudos de dados populacionais e demográficos, bem como a criação de mapas e produção de conteúdo georreferenciado em parceria com a prefeitura de Herval.",
+
+    "fuelStation":"Frentista",
+    "fuelStationCompany":"Posto da Rótula",
+    "fuelStationYear":"(2018 - 2019)",
+    "fuelStationDetail":"Atendimento ao público. Abastecimento e limpeza de veículos.",
+
+    "candiotaPlanning":"Estagiário - Planejamento Urbano de Candiota",
+    "candiotaPlanningCompany":"FAUrb Urban Lab",
+    "candiotaPlanningYear":"(2018)",
+    "candiotaPlanningDetail":"Realização de levantamentos de campo, estudos de dados populacionais e demográficos, bem como a criação de mapas e produção de conteúdo georreferenciado em parceria com a prefeitura de Candiota.",
+
+    "chuyPlanning":"Estagiário - Planejamento Urbano de Chuy",
+    "chuyPlanningCompany":"FAUrb Urban Lab",
+    "chuyPlanningYear":"(2017)",
+    "chuyPlanningDetail":"Realização de levantamentos de campo, estudos de dados populacionais e demográficos, bem como a criação de mapas e produção de conteúdo georreferenciado em parceria com a prefeitura de Chuy.",
+
+    "internLab":"Estagiário - Assistente de Laboratório",
+    "internLabCompany":"FAUrb Urban Lab",
+    "internLabYear":"(2016)",
+    "internLabDetail":"Manutenção e assistência no uso de computadores e equipamentos laboratoriais, além da gestão de inventário e controle de acesso de professores e alunos.",
+
+    "atelieIntern":"Estagiário",
+    "atelieInternCompany":"Ateliê Arquitetura",
+    "atelieInternYear":"(2014)",
+    "atelieInternDetail":"Execução de desenhos técnicos, projetos de arquitetura e interiores, modelagem 3D e renderização.",
+
+    "martinsIntern":"Estagiário",
+    "martinsInternCompany":"Escritório do Engenheiro Martins",
+    "martinsInternYear":"(2012 - 2013)",
+    "martinsInternDetail":"Desenvolvimento de desenhos técnicos. Execução de processamento de dados SIG e organização de documentação para regularização junto ao INCRA.",
+
+  "freeEducationSection":"Cursos e Certificações",
+
+    "adaTech": "Vem Ser Tech - Trilha de Desenvolvimento Front-End",
+    "adaTechCompany": "Ada.Tech",
+    "adaTechYear": "(2023 - 2024)",
+    "adaTechDetail": "Curso abrangente, cobrindo as disciplinas de Projeto Web Estático e Dinâmico, incluindo o uso de tecnologias como TypeScript, Bootstrap e React.",
+
+    "descomplica": "Introdução ao Desenvolvimento Front-End",
+    "descomplicaCompany": "Faculdade Descomplica",
+    "descomplicaYear": "(2023)",
+    "descomplicaDetail": "Introdução ao Desenvolvimento Web, com enfoque especial em páginas estáticas e tecnologias essenciais como HTML, CSS e JavaScript.",
+
+    "origamidUIBegin": "UI Design para Iniciantes",
+    "origamidUIBeginCompany":"Origamid",
+    "origamidUIBeginYear":"(2024)",
+    "origamidUIBeginDetail":"Curso de UI Design para iniciantes, abordando conceitos básicos e avançados de design de interface, começando do zero e utilizando ferramentas como Figma para a criação de protótipos."
 }
