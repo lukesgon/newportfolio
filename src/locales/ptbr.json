@@ -8,10 +8,14 @@
   "detailHelpText": "Essa opção serve para revelar ou ocultar outros detalhes sobre minha vida profissional, além de hobbies e outras experiências não diretamente ligadas ao campo da tecnologia.",
   "stack": "Minha Stack",
   "tools":"OUTROS",
+
   "contact":"Contato",
   "contactFragment1": "Ou copie clicando em",
   "contactFragment2": "ou",
+  "copied":"Copiado",
   "phone":"Telefone",
+
+
   "portfolioHeader": "Meus Projetos",
   "vanillaJSDescription":"Sessão destinada aos meus projetos utilizando tecnologias básicas como HTML, CSS e JavaScript.",
   "projectDetails": "Clique para mais Detalhes",

@@ -9,6 +9,7 @@ import WhatsAppContactIcon from "../../icons/Contact/WhatsAppContactIcon";
 import LinkedInContactIcon from "../../icons/Contact/LinkedInContactIcon";
 import EmailContactIcon from "../../icons/Contact/EmailContactIcon";
 import TelContactIcon from "../../icons/Contact/TelContactIcon";
+import { useState } from "react";
 
 interface ContactBoxProps {
   $setIsOpen: () => void;
@@ -55,6 +56,8 @@ const StyledSmall = styled.small`
 
 const ContactBox = ({ $setIsOpen }: ContactBoxProps) => {
   const { library } = useLang();
+  const [emailCopied, setEmailCopied] = useState(false);
+  const [telCopied, setTelCopied] = useState(false)
 
   function handleSetIsOpen() {
     $setIsOpen();
@@ -155,13 +158,22 @@ const ContactBox = ({ $setIsOpen }: ContactBoxProps) => {
         <StyledSmall>
           {library.contactFragment1}{" "}
           <StyledSimpleButton
-            onClick={() => copyText("lucasSG.dev@gmail.com")}
+            onClick={() => {
+              copyText("lucasSG.dev@gmail.com")
+              setEmailCopied(true);
+              setTelCopied(false);
+            }}
           >
-            Email
+            {emailCopied ?library.copied :'E-mail'}
           </StyledSimpleButton>{" "}
-          {library.contactFragment2}{" "}
-          <StyledSimpleButton onClick={() => copyText("+5553984688644")}>
-            {library.phone}
+            {library.contactFragment2}{" "}
+          <StyledSimpleButton onClick={() =>{
+            copyText("+5553984688644");
+            setTelCopied(true);
+            setEmailCopied(false);
+            }
+          }>
+            {telCopied ?library.copied :library.phone}
           </StyledSimpleButton>
           .
         </StyledSmall>
