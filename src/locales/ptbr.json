@@ -25,11 +25,7 @@
   "resumeTitle":"Sobre Mim",
 
   "aboutMeSection":"Apresentação",
-  "aboutMe1":"Sou um desenvolvedor web originário de Pelotas, RS. Iniciei minha trajetória como técnico em edificações, seguindo para a graduação em arquitetura e urbanismo, porém minha verdadeira paixão sempre foi a tecnologia.",
-  "aboutMe2":"Ao longo da minha trajetória descobri a capacidade de transformar desafios em oportunidades. Explorando, por exemplo, o mundo da impressão 3D por conta própria, descobri novas dimensões de autonomia e resolução de problemas.",
-  "aboutMe3":"Atualmente, estou comprometido em aplicar noções adquiridas na arquitetura, como a interpretação de desafios multidisciplinares, para o desenvolvimento web. Busco sempre perspectivas inovadoras, mas com soluções práticas e acuradas para os projetos em que me envolvo.",
-  "aboutMe4":"Já tive a oportunidade de participar de cursos como a introdução ao desenvolvimento web, através da Faculdade Descomplica, tendo concluído recentemente o curso Desenvolvimento Front-end junto à Ada.Tech, com sua vaga garantida após um longo e concorrido processo de seleção.",
-  "aboutMe5":"Me considero curioso por natureza, valorizando muito o generalismo. Sou capaz de desenvolver fazendo uso de tecnologias como HTML5, CSS3, JavaScript, além de bibliotecas e frameworks como React, Styled Components e BootStrap.",
+  "aboutMe": "Sou desenvolvedor web de Pelotas, RS, com formação em técnico de edificações e arquitetura, mas sempre focado em tecnologia. Ao longo da minha trajetória, explorei a impressão 3D e aprimorei habilidades de resolução de problemas. Recentemente, conclui o curso de Front-End Development na Ada.Tech e também fiz a introdução ao desenvolvimento web pela Faculdade Descomplica. Sou curioso e generalista, com experiência em HTML5, CSS3, JavaScript, React, Styled Components e BootStrap.",
 
   "educationSection":"Formação",
 
@@ -77,6 +73,7 @@
     "internUrbanMetricsCompany":"FAUrb Urban Lab",
     "internUrbanMetricsYear":"(2020 - 2021)",
     "internUrbanMetricsDetail":"Coautoria, redação e edição do Help para o software UrbanMetrics, baseado nos estudos do professor Maurício Polidori sobre medidas topológicas urbanas.",
+    "helpAccess":"Clique aqui para acessar o Help.",
 
     "gersonZaffalon":"Estagiário",
     "gersonZaffalonCompany":"Gerson Zaffalon - Arquitetura",
@@ -119,6 +116,7 @@
     "martinsInternDetail":"Desenvolvimento de desenhos técnicos. Execução de processamento de dados SIG e organização de documentação para regularização junto ao INCRA.",
 
   "freeEducationSection":"Cursos e Certificações",
+  "certificateAccess":"Clique aqui para os Certificados.",
 
     "adaTech": "Vem Ser Tech - Trilha de Desenvolvimento Front-End",
     "adaTechCompany": "Ada.Tech",

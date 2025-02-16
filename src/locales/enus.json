@@ -24,11 +24,7 @@
   "resumeTitle":"About Me",
 
   "aboutMeSection":"Introduction",
-  "aboutMe1": "I am a web developer from Pelotas, RS. I started my journey as a building technician, then pursued a degree in architecture and urbanism, but my true passion has always been technology.",
-  "aboutMe2": "Throughout my journey, I discovered the ability to turn challenges into opportunities. By exploring, for example, the world of 3D printing on my own, I found new dimensions of autonomy and problem-solving.",
-  "aboutMe3": "Currently, I am committed to applying concepts acquired in architecture, such as interpreting multidisciplinary challenges, to web development. I always seek innovative perspectives while ensuring practical and accurate solutions for the projects I engage in.",
-  "aboutMe4": "I have had the opportunity to take courses such as an introduction to web development through Faculdade Descomplica and recently completed the Front-end Development course at Ada.Tech, securing my spot after a long and competitive selection process.",
-  "aboutMe5": "I consider myself naturally curious and highly value generalism. I am capable of developing using technologies such as HTML5, CSS3, and JavaScript, as well as libraries and frameworks like React, Styled Components, and Bootstrap.",
+  "aboutMe": "I am a web developer from Pelotas, RS, with a background in building technology and architecture, but always focused on technology. Throughout my journey, I explored 3D printing and honed my problem-solving skills. Recently, I completed the Front-End Development course at Ada.Tech and also took an introduction to web development at Faculdade Descomplica. I am curious and a generalist, with experience in HTML5, CSS3, JavaScript, React, Styled Components, and Bootstrap.",
 
   "educationSection":"Education",
     
@@ -76,6 +72,7 @@
     "internUrbanMetricsCompany":"FAUrb Urban Lab",
     "internUrbanMetricsYear":"(2020 - 2021)",
     "internUrbanMetricsDetail":"Co-authorship, writing, and editing of the Help for the UrbanMetrics software, based on the studies of Professor Maurício Polidori, on urban topological measures.",
+    "helpAccess":"Click here to Help file.",
 
     "gersonZaffalon":"Intern",
     "gersonZaffalonCompany":"Gerson Zaffalon - Architecture",
@@ -119,6 +116,8 @@
 
   "freeEducationSection":"Courses and Certifications",
 
+  "certificateAccess":"Click here to certificates.",
+
     "adaTech":"Vem Ser Tech - Front-End Development Program",
     "adaTechCompany":"Ada.Tech",
     "adaTechYear":"(2023 - 2024)",
@@ -132,5 +131,5 @@
     "origamidUIBegin": "UI Design para Iniciantes",
     "origamidUIBeginCompany":"Origamid",
     "origamidUIBeginYear":"(2024)",
-    "origamidUIBeginDetail":"Curso de UI Design para iniciantes, abordando conceitos básicos e avançados de design de interface, começando do zero e utilizando ferramentas como Figma para a criação de protótipos."
+    "origamidUIBeginDetail":"UI Design course for beginners, covering basic and advanced interface design concepts, starting from scratch and using tools like Figma for prototype creation."
 }

@@ -33,11 +33,7 @@ const Resume = () => {
         <CVLink />
       </Section>
       <ResumeSection title={library.aboutMeSection}>
-        <p>{library.aboutMe1}</p>
-        <p>{library.aboutMe2}</p>
-        <p>{library.aboutMe3}</p>
-        <p>{library.aboutMe4}</p>
-        <p>{library.aboutMe5}</p>
+        <p>{library.aboutMe}</p>
       </ResumeSection>
       <ResumeSection title={library.educationSection} $custom="gap: 1rem;">
         <InfoResumeBox
@@ -119,28 +115,31 @@ const Resume = () => {
           <p>{library.gelsonProjectDetail}</p>
         </InfoResumeBox>
 
-        {details && (
-          <>
-            <InfoResumeBox
-              $theme={$theme}
-              $title={library.gelsonCompany}
-              $instituition={library.gelsonCompanyCompany}
-              $year={library.gelsonCompanyYear}
-              $detail
-            >
-              <p>{library.gelsonCompanyDetail}</p>
-            </InfoResumeBox>
-
+            { details &&
+              <InfoResumeBox
+                $theme={$theme}
+                $title={library.gelsonCompany}
+                $instituition={library.gelsonCompanyCompany}
+                $year={library.gelsonCompanyYear}
+                $detail
+              >
+                <p>{library.gelsonCompanyDetail}</p>
+              </InfoResumeBox>
+            }
+        
             <InfoResumeBox
               $theme={$theme}
               $title={library.internUrbanMetrics}
               $instituition={library.internUrbanMetricsCompany}
               $year={library.internUrbanMetricsYear}
-              $detail
+              $detail={false}
             >
               <p>{library.internUrbanMetricsDetail}</p>
+              <small><a href="https://wp.ufpel.edu.br/urbanmetrics/files/2021/03/Help_UrbanMetrics.pdf" target="_blank">{library.helpAccess}</a></small>
             </InfoResumeBox>
-
+        
+        {details && (
+          <>
             <InfoResumeBox
               $theme={$theme}
               $title={library.gersonZaffalon}
@@ -232,6 +231,7 @@ const Resume = () => {
         $year={library.origamidUIBeginYear}
         $detail={false}>
           <p>{library.origamidUIBeginDetail}</p>
+          <small><a href="https://drive.google.com/drive/folders/1g0acb-cxCWVqvVaoJGc7A2aBRXvyM6tR?usp=sharing" target="_blank">{library.certificateAccess}</a></small>
         </InfoResumeBox>
 
         <InfoResumeBox
@@ -241,6 +241,7 @@ const Resume = () => {
         $year={library.adaTechYear}
         $detail={false}>
           <p>{library.adaTechDetail}</p>
+          <small><a href="https://drive.google.com/drive/folders/1cEAbow3Sn4Sxp1uKWRLFNr-to6CKemJR?usp=drive_link" target="_blank">{library.certificateAccess}</a></small>
         </InfoResumeBox>
         
         <InfoResumeBox
@@ -250,10 +251,10 @@ const Resume = () => {
         $year={library.descomplicaYear}
         $detail={false}>
           <p>{library.descomplicaDetail}</p>
+          <small><a href="https://drive.google.com/drive/folders/1DNH8drmk9n9zQWlHO6IHhkvS6h5AuJH8?usp=sharing">{library.certificateAccess}</a></small>
         </InfoResumeBox>
       </ResumeSection>
 
-      <Section>Cursos Livres</Section>
       <Section>Habilidades</Section>
       <Section>Projetos Pessoais</Section>
     </Main>
