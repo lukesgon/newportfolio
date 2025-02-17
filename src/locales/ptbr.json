@@ -135,5 +135,9 @@
     "origamidUIBegin": "UI Design para Iniciantes",
     "origamidUIBeginCompany":"Origamid",
     "origamidUIBeginYear":"(2024)",
-    "origamidUIBeginDetail":"Curso de UI Design para iniciantes, abordando conceitos básicos e avançados de design de interface, começando do zero e utilizando ferramentas como Figma para a criação de protótipos."
+    "origamidUIBeginDetail":"Curso de UI Design para iniciantes, abordando conceitos básicos e avançados de design de interface, começando do zero e utilizando ferramentas como Figma para a criação de protótipos.",
+
+  "skillsSection":"Minhas Habilidades",
+    "hardSkills":"Técnicas",
+    "softSkills":"Sociais"
 }

@@ -134,5 +134,9 @@
     "origamidUIBegin": "UI Design para Iniciantes",
     "origamidUIBeginCompany":"Origamid",
     "origamidUIBeginYear":"(2024)",
-    "origamidUIBeginDetail":"UI Design course for beginners, covering basic and advanced interface design concepts, starting from scratch and using tools like Figma for prototype creation."
+    "origamidUIBeginDetail":"UI Design course for beginners, covering basic and advanced interface design concepts, starting from scratch and using tools like Figma for prototype creation.",
+
+    "skillsSection":"My Skills",
+      "hardSkills":"Técnicas",
+      "softSkills":"Sociais"
 }

@@ -7,6 +7,7 @@ import CVLink from "../../components/buttons/CVLink";
 import { useThemeContext } from "../../contexts/ThemeContext";
 import InfoResumeBox from "../../components/box/InfoResumeBox";
 import { useDetailsContext } from "../../contexts/DetailContext";
+import SkillBox from "../../components/box/SkillBox";
 
 const StyledHeader = styled.h1`
   color: var(--color-3);
@@ -115,29 +116,36 @@ const Resume = () => {
           <p>{library.gelsonProjectDetail}</p>
         </InfoResumeBox>
 
-            { details &&
-              <InfoResumeBox
-                $theme={$theme}
-                $title={library.gelsonCompany}
-                $instituition={library.gelsonCompanyCompany}
-                $year={library.gelsonCompanyYear}
-                $detail
-              >
-                <p>{library.gelsonCompanyDetail}</p>
-              </InfoResumeBox>
-            }
-        
-            <InfoResumeBox
-              $theme={$theme}
-              $title={library.internUrbanMetrics}
-              $instituition={library.internUrbanMetricsCompany}
-              $year={library.internUrbanMetricsYear}
-              $detail={false}
+        {details && (
+          <InfoResumeBox
+            $theme={$theme}
+            $title={library.gelsonCompany}
+            $instituition={library.gelsonCompanyCompany}
+            $year={library.gelsonCompanyYear}
+            $detail
+          >
+            <p>{library.gelsonCompanyDetail}</p>
+          </InfoResumeBox>
+        )}
+
+        <InfoResumeBox
+          $theme={$theme}
+          $title={library.internUrbanMetrics}
+          $instituition={library.internUrbanMetricsCompany}
+          $year={library.internUrbanMetricsYear}
+          $detail={false}
+        >
+          <p>{library.internUrbanMetricsDetail}</p>
+          <small>
+            <a
+              href="https://wp.ufpel.edu.br/urbanmetrics/files/2021/03/Help_UrbanMetrics.pdf"
+              target="_blank"
             >
-              <p>{library.internUrbanMetricsDetail}</p>
-              <small><a href="https://wp.ufpel.edu.br/urbanmetrics/files/2021/03/Help_UrbanMetrics.pdf" target="_blank">{library.helpAccess}</a></small>
-            </InfoResumeBox>
-        
+              {library.helpAccess}
+            </a>
+          </small>
+        </InfoResumeBox>
+
         {details && (
           <>
             <InfoResumeBox
@@ -222,36 +230,166 @@ const Resume = () => {
           </>
         )}
       </ResumeSection>
-      
+
       <ResumeSection title={library.freeEducationSection} $custom="gap: 1rem">
         <InfoResumeBox
-        $theme={$theme}
-        $title={library.origamidUIBegin}
-        $instituition={library.origamidUIBeginCompany}
-        $year={library.origamidUIBeginYear}
-        $detail={false}>
+          $theme={$theme}
+          $title={library.origamidUIBegin}
+          $instituition={library.origamidUIBeginCompany}
+          $year={library.origamidUIBeginYear}
+          $detail={false}
+        >
           <p>{library.origamidUIBeginDetail}</p>
-          <small><a href="https://drive.google.com/drive/folders/1g0acb-cxCWVqvVaoJGc7A2aBRXvyM6tR?usp=sharing" target="_blank">{library.certificateAccess}</a></small>
+          <small>
+            <a
+              href="https://drive.google.com/drive/folders/1g0acb-cxCWVqvVaoJGc7A2aBRXvyM6tR?usp=sharing"
+              target="_blank"
+            >
+              {library.certificateAccess}
+            </a>
+          </small>
         </InfoResumeBox>
 
         <InfoResumeBox
-        $theme={$theme}
-        $title={library.adaTech}
-        $instituition={library.adaTechCompany}
-        $year={library.adaTechYear}
-        $detail={false}>
+          $theme={$theme}
+          $title={library.adaTech}
+          $instituition={library.adaTechCompany}
+          $year={library.adaTechYear}
+          $detail={false}
+        >
           <p>{library.adaTechDetail}</p>
-          <small><a href="https://drive.google.com/drive/folders/1cEAbow3Sn4Sxp1uKWRLFNr-to6CKemJR?usp=drive_link" target="_blank">{library.certificateAccess}</a></small>
+          <small>
+            <a
+              href="https://drive.google.com/drive/folders/1cEAbow3Sn4Sxp1uKWRLFNr-to6CKemJR?usp=drive_link"
+              target="_blank"
+            >
+              {library.certificateAccess}
+            </a>
+          </small>
         </InfoResumeBox>
-        
+
         <InfoResumeBox
-        $theme={$theme}
-        $title={library.descomplica}
-        $instituition={library.descomplicaCompany}
-        $year={library.descomplicaYear}
-        $detail={false}>
+          $theme={$theme}
+          $title={library.descomplica}
+          $instituition={library.descomplicaCompany}
+          $year={library.descomplicaYear}
+          $detail={false}
+        >
           <p>{library.descomplicaDetail}</p>
-          <small><a href="https://drive.google.com/drive/folders/1DNH8drmk9n9zQWlHO6IHhkvS6h5AuJH8?usp=sharing">{library.certificateAccess}</a></small>
+          <small>
+            <a href="https://drive.google.com/drive/folders/1DNH8drmk9n9zQWlHO6IHhkvS6h5AuJH8?usp=sharing">
+              {library.certificateAccess}
+            </a>
+          </small>
+        </InfoResumeBox>
+      </ResumeSection>
+
+      <ResumeSection title={library.skillsSection} $custom="gap:1rem;">
+        <InfoResumeBox
+          $title={library.hardSkills}
+          $theme={$theme}
+          $detail={false}
+        >
+          <Section $custom="gap: 0.2rem">
+            <Section
+              $direction="row"
+              $custom="flex-wrap: wrap; gap: 1rem;"
+              $justify="start"
+              $align="center"
+              $width="100%"
+              $padding="0.5rem"
+              $border="solid 3px transparent"
+            >
+              <SkillBox $bgColor="#E7622A" $color="white">
+                HTML
+              </SkillBox>
+              <SkillBox $color="white" $bgColor="purple">
+                CSS
+              </SkillBox>
+              <SkillBox $color="black" $bgColor="#E8D34B">
+                JavaScript
+              </SkillBox>
+              <SkillBox $color="white" $bgColor="#0074C6">
+                TypeScript
+              </SkillBox>
+              <SkillBox $color="black" $bgColor="#04CDEF">
+                React
+              </SkillBox>
+              <SkillBox $color="white" $bgColor="purple">
+                BootStrap
+              </SkillBox>
+              <SkillBox $color="white" $bgColor="fuchsia">
+                Styled Components
+              </SkillBox>
+              <SkillBox $color="white" $bgColor="#77B542">
+                Node.js
+              </SkillBox>
+              <SkillBox $color="#F6C83C" $bgColor="#326894">
+                Python
+              </SkillBox>
+              <SkillBox $color="white" $bgColor="#E74D30">
+                GIT
+              </SkillBox>
+              <SkillBox $color="orange" $bgColor="purple">
+                Figma
+              </SkillBox>
+            </Section>
+            {details && (
+              <Section
+                $direction="row"
+                $custom="flex-wrap: wrap; gap: 1rem;"
+                $justify="start"
+                $align="center"
+                $width="100%"
+                $padding="0.5rem"
+                $border="solid 3px var(--color-5);"
+              >
+                <SkillBox $bgColor="black" $color="white">
+                  GIMP
+                </SkillBox>
+
+                <SkillBox $bgColor="black" $color="white">
+                  TwinMotion
+                </SkillBox>
+
+                <SkillBox $bgColor="#DC0E4C" $color="white">
+                  AutoCAD
+                </SkillBox>
+
+                <SkillBox $bgColor="#004D8A" $color="white">
+                  Sketchup
+                </SkillBox>
+
+                <SkillBox $bgColor="#DF7200" $color="#255382">
+                  Blender
+                </SkillBox>
+
+                <SkillBox $bgColor="white" $color="#306EB2">
+                  Revit
+                </SkillBox>
+
+                <SkillBox $bgColor="#5DA105" $color="white">
+                  CorelDraw
+                </SkillBox>
+
+                <SkillBox $bgColor="#4390D6" $color="white">
+                  Office365
+                </SkillBox>
+
+                <SkillBox $bgColor="#40081D" $color="#E94868">
+                  InDesign
+                </SkillBox>
+              </Section>
+            )}
+          </Section>
+        </InfoResumeBox>
+
+        <InfoResumeBox
+          $title={library.softSkills}
+          $theme={$theme}
+          $detail={false}
+        >
+          test
         </InfoResumeBox>
       </ResumeSection>
 
