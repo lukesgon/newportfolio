@@ -74,7 +74,7 @@
     "gelsonCompanyDetail":"Atendimento no balcão, cópia de chaves e abertura de fechaduras residenciais e automotivas.",
 
     "internUrbanMetrics":"Estagiário Acadêmico - UrbanMetrics Help",
-    "internUrbanMetricsCompany":"FAUrb Urban Lab",
+    "internUrbanMetricsCompany":"Laboratório de Urbanismo FAUrb",
     "internUrbanMetricsYear":"(2020 - 2021)",
     "internUrbanMetricsDetail":"Coautoria, redação e edição do Help para o software UrbanMetrics, baseado nos estudos do professor Maurício Polidori sobre medidas topológicas urbanas.",
     "helpAccess":"Clique aqui para acessar o Help.",
@@ -85,7 +85,7 @@
     "gersonZaffalonDetail":"Execução de desenhos técnicos, projetos de arquitetura e interiores, modelagem 3D e renderização.",
 
     "hervalPlanning":"Estagiário Acadêmico - Planejamento Urbano de Herval",
-    "hervalPlanningCompany":"FAUrb Urban Lab",
+    "hervalPlanningCompany":"Laboratório de Urbanismo FAUrb",
     "hervalPlanningYear":"(2019)",
     "hervalPlanningDetail":"Realização de levantamentos de campo, estudos de dados populacionais e demográficos, bem como a criação de mapas e produção de conteúdo georreferenciado em parceria com a prefeitura de Herval.",
 
@@ -95,17 +95,17 @@
     "fuelStationDetail":"Atendimento ao público. Abastecimento e limpeza de veículos.",
 
     "candiotaPlanning":"Estagiário - Planejamento Urbano de Candiota",
-    "candiotaPlanningCompany":"FAUrb Urban Lab",
+    "candiotaPlanningCompany":"Laboratório de Urbanismo FAUrb",
     "candiotaPlanningYear":"(2018)",
     "candiotaPlanningDetail":"Realização de levantamentos de campo, estudos de dados populacionais e demográficos, bem como a criação de mapas e produção de conteúdo georreferenciado em parceria com a prefeitura de Candiota.",
 
     "chuyPlanning":"Estagiário - Planejamento Urbano de Chuy",
-    "chuyPlanningCompany":"FAUrb Urban Lab",
+    "chuyPlanningCompany":"Laboratório de Urbanismo FAUrb",
     "chuyPlanningYear":"(2017)",
     "chuyPlanningDetail":"Realização de levantamentos de campo, estudos de dados populacionais e demográficos, bem como a criação de mapas e produção de conteúdo georreferenciado em parceria com a prefeitura de Chuy.",
 
     "internLab":"Estagiário - Assistente de Laboratório",
-    "internLabCompany":"FAUrb Urban Lab",
+    "internLabCompany":"Laboratório de Urbanismo FAUrb",
     "internLabYear":"(2016)",
     "internLabDetail":"Manutenção e assistência no uso de computadores e equipamentos laboratoriais, além da gestão de inventário e controle de acesso de professores e alunos.",
 
@@ -139,5 +139,17 @@
 
   "skillsSection":"Minhas Habilidades",
     "hardSkills":"Técnicas",
-    "softSkills":"Sociais"
+    "softSkills":"Sociais",
+
+    "softSkillResilience": "Resiliência",
+    "softSkillResilienceDetail": "Adaptabilidade e perseverança para transformar desafios em oportunidades, mantendo o foco em soluções eficazes e aprendizado contínuo.",
+    "softSkillTeamWork": "Trabalho em Equipe",
+    "softSkillTeamWorkDetail": "Colaboração eficaz, comunicação clara e comprometimento com objetivos coletivos, sempre buscando um ambiente produtivo e harmônico.",
+    "softSkillGeneralism": "Generalismo",
+    "softSkillGeneralismDetail": "Versátil e adaptável, com um conhecimento amplo que permite a resolução eficaz de problemas em diferentes áreas.",
+    "softSkillOrganization": "Senso de Organização",
+    "softSkillOrganizationDetail": "Capacidade de estruturar tarefas e gerenciar o tempo de forma eficaz, garantindo que os processos fluam de maneira tranquila e as prioridades sejam atendidas sem comprometer a qualidade.",
+    "softSkillAccountability": "Responsabilidade",
+    "softSkillAccountabilityDetail": "Comprometimento em cumprir tarefas com responsabilidade, garantindo que os objetivos sejam alcançados e assumindo a responsabilidade pelos resultados e decisões."
+
 }

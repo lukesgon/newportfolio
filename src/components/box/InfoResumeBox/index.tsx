@@ -32,9 +32,9 @@ const InfoResumeBox = ({
       <Section $color={$detail ? $theme.colors.detailColor : "var(--color-3)"}>
         <h4>{$title}</h4>
       </Section>
-      <Section>
+      <Section $width="100%">
         { ($instituition || $year )&& 
-        <Section $direction="row" $custom="gap: 10px;" $padding="0 0 0.5rem 0">
+        <Section $width='100%'$direction="row" $custom="gap: 10px;" $padding="0 0 0.5rem 0">
           <small>
             <em>
               {$instituition} {$year}

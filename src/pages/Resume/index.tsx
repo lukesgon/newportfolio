@@ -8,6 +8,7 @@ import { useThemeContext } from "../../contexts/ThemeContext";
 import InfoResumeBox from "../../components/box/InfoResumeBox";
 import { useDetailsContext } from "../../contexts/DetailContext";
 import SkillBox from "../../components/box/SkillBox";
+import SoftSkill from "../../components/box/SoftSkill";
 
 const StyledHeader = styled.h1`
   color: var(--color-3);
@@ -290,7 +291,7 @@ const Resume = () => {
           $theme={$theme}
           $detail={false}
         >
-          <Section $custom="gap: 0.2rem">
+          <Section $custom="gap: 0.2rem" $width="100%">
             <Section
               $direction="row"
               $custom="flex-wrap: wrap; gap: 1rem;"
@@ -389,11 +390,46 @@ const Resume = () => {
           $theme={$theme}
           $detail={false}
         >
-          test
+          <Section>
+            <SoftSkill
+              $theme={$theme}
+              $detailed={false}
+              $title={library.softSkillResilience}
+            >
+              {library.softSkillResilienceDetail}
+            </SoftSkill>
+            <SoftSkill
+              $theme={$theme}
+              $detailed={false}
+              $title={library.softSkillTeamWork}
+            >
+              {library.softSkillTeamWorkDetail}
+            </SoftSkill>
+            <SoftSkill
+              $theme={$theme}
+              $detailed={false}
+              $title={library.softSkillGeneralism}
+            >
+              {library.softSkillGeneralismDetail}
+            </SoftSkill>
+            <SoftSkill
+              $theme={$theme}
+              $detailed={false}
+              $title={library.softSkillOrganization}
+            >
+              {library.softSkillOrganizationDetail}
+            </SoftSkill>
+            <SoftSkill
+              $theme={$theme}
+              $detailed={false}
+              $title={library.softSkillAccountability}
+            >
+              {library.softSkillAccountabilityDetail}
+            </SoftSkill>
+          </Section>
         </InfoResumeBox>
       </ResumeSection>
 
-      <Section>Habilidades</Section>
       <Section>Projetos Pessoais</Section>
     </Main>
   );

@@ -136,7 +136,19 @@
     "origamidUIBeginYear":"(2024)",
     "origamidUIBeginDetail":"UI Design course for beginners, covering basic and advanced interface design concepts, starting from scratch and using tools like Figma for prototype creation.",
 
-    "skillsSection":"My Skills",
-      "hardSkills":"Técnicas",
-      "softSkills":"Sociais"
+  "skillsSection":"My Skills",
+    "hardSkills":"Technical",
+    "softSkills":"Socials",
+
+    "softSkillResilience": "Resilience",
+    "softSkillResilienceDetail": "Adaptability and perseverance to turn challenges into opportunities, maintaining a focus on effective solutions and continuous learning.",
+    "softSkillTeamWork": "Teamwork",
+    "softSkillTeamWorkDetail": "Effective collaboration, clear communication, and commitment to collective goals, always striving for a productive and harmonious environment.",
+    "softSkillGeneralism":"Generalism",
+    "softSkillGeneralismDetail": "Versatile and adaptable, with broad knowledge that enables effective problem-solving across different areas.",
+    "softSkillOrganization":"Sense of Organization",
+    "softSkillOrganizationDetail":"Ability to structure tasks and manage time effectively, ensuring that processes run smoothly and priorities are met without compromising quality.",
+    "softSkillAccountability":"Accountability",
+    "softSkillAccountabilityDetail":"Commitment to fulfilling tasks with accountability, ensuring that objectives are met and taking ownership of outcomes and decisions."
+  
 }
