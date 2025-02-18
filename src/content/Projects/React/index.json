@@ -1,0 +1,38 @@
+[
+  {
+    "id":"3",
+    "name":"Portfolio v1.0",
+    "description":"thisPortfolioProject",
+    "fullDescription":"thisPortfolioProjectFullDescription",
+    "img":"/src/img/projects/react/portfolioV1.webp",
+    "imgAlt":"Portfolio v1 Page",
+    "techs":["HTML", "CSS","JavaScript", "TypeScript", "React", "FireBase"],
+    "repo": "https://github.com/lukesgon/chaveiro-gelson",
+    "preview": "/",
+    "detail": "/portfolio/3"
+  },
+  {
+    "id":"4",
+    "name":"To-do Tracker",
+    "description":"todoTrackerProject",
+    "fullDescription":"todoTrackerProjectFullDescription",
+    "img":"/src/img/projects/react/todoTracker.webp",
+    "imgAlt":"Preview To-do Tracker Page",
+    "techs":["HTML", "CSS", "JavaScript", "React"],
+    "repo": "https://github.com/lukesgon/todo-tracker/tree/main",
+    "preview": "https://lukesgon.github.io/todo-tracker/",
+    "detail": "/portfolio/4"
+  },
+  {
+    "id":"5",
+    "name":"Portfolio v0.1",
+    "description":"portfolioV01Project",
+    "fullDescription":"portfolioV01ProjectFullDescription",
+    "img":"/src/img/projects/react/oldPortfolio.webp",
+    "imgAlt":"Preview Old Portfolio Page",
+    "techs":["HTML", "CSS", "JavaScript", "React"],
+    "repo": "https://github.com/lukesgon/portfolio",
+    "preview": "https://lukesgon.github.io/portfolio/#/",
+    "detail": "/portfolio/5"
+  }
+]

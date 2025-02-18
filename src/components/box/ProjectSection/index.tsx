@@ -23,6 +23,7 @@ const ProjectSection = ({ children, title, sub }: ProjectSectionProps) => {
     <Section
       $width="1024px"
       $custom="@media (orientation:portrait) {max-width: 92vw;}"
+      $padding="0 0 2rem 0"
     >
       <Section
         $direction="row"

@@ -16,7 +16,10 @@
   "phone":"Phone",
 
   "portfolioHeader": "My Projects",
+  
   "vanillaJSDescription":"Section dedicated to my projects using basic technologies such as HTML, CSS, and JavaScript.",
+  "reactJSDescription":"Section dedicated to my projects using basic technologies such as React, Styled Components, TypeScript and others.",
+
   "projectDetails": "Click for more Details",
   "projectTechs": "Technologies",
   "previewButton":"Preview",
@@ -24,6 +27,22 @@
     "unknownProject":"Unkown Project.",
     "iFoodProject":"This project was developed during the Front-End Development track of the Ada.Tech course.",
     "iFoodProjectFullDescription":"This project was developed during the Front-End Development track of the Ada.Tech course. The objective of this exercise was to emulate a landing page for iFood, utilizing essential front-end development technologies such as HTML and CSS. Following a single-page structure, also known as SPA, the goal was to create a responsive layout that served as a foundation for fundamental development techniques. It is also important to highlight its static nature, as the exercise was carried out without the use of JavaScript in its implementation.",
+
+    "chaveiroGelsonProject": "My first commercial project. Aimed at presenting the company's services...",
+    "chaveiroGelsonProjectFullDescription": "My first commercial project. Aimed at presenting the company's services. The project's proposal was, in addition to providing a business card for Chaveiro Gelson, with its offered services and location, to also provide a simple and efficient system for creating quotes. To do this, the WhatsApp API was used, where, through a card system, a customer visiting the page could build a well-structured quote, which would be submitted via the company's WhatsApp. The entire page manipulation was done using 'pure' JavaScript.",
+
+    "toDoProject": "This project was developed as a group exercise during the Ada.Tech course...",
+    "toDoProjectFullDescription": "This project was developed as a group exercise during the Ada.Tech course. During the dynamic front-end module, it was proposed that each trio develop a ToDo web app. In partnership with my colleagues Rodrigo Silva and Wild Barreto, we developed a simple system that, in addition to allowing task registration, also enables editing, completion, and deletion of tasks, with the differentiator of having persistent storage, using the browser's localStorage for data persistence.",
+
+    "thisPortfolioProject": "(...) built not only to demonstrate the progression of my React skills...",
+    "thisPortfolioProjectFullDescription": "My most recent project, this very page, was built not only to showcase the progression of my React skills but primarily to demonstrate other aspects that go beyond 'Lucas Developer.' In addition to a more advanced use of React, the page was built using libraries like typeIt, CSS animations, all to bring more dynamism. The CSS was entirely worked with styled components, and there was extensive use of contexts, both for page translation, styling, and even for presenting sections not directly related to my work as a developer. Additionally, great care was taken in working on the page's responsiveness, ensuring that it adapts to any type of screen.",
+
+    "todoTrackerProject": "The To-do Tracker was the natural evolution of my previous work on to-do lists.", 
+    "todoTrackerProjectFullDescription": "The To-do Tracker was the natural evolution of my previous work on to-do lists. In it, I had the opportunity to deepen my knowledge in React while developing a useful tool to continue my studies as a developer. The idea behind this app is not only to organize task lists within their respective projects and/or works but also to track (manually) the time dedicated to each task. Additionally, it allows you to view the total time for a project/work by summing the time spent on each task. Lastly, and not less importantly, it is possible to make pricing estimations for the work and filter tasks by date, with the help of react-calendar.",
+
+    "portfolioV01Project": "The old version of my portfolio was my first major attempt with React.",
+    "portfolioV01ProjectFullDescription": "The old version of my portfolio was my first major attempt with React. At the time, my knowledge of the library was still very superficial, which led to frequent direct DOM manipulations using vanilla JavaScript. Nevertheless, I achieved a relatively satisfactory result in its construction. The project was originally hosted on GitHub Pages and was essentially structured as a single-page application, with navigation through section IDs.",
+
   "resumeTitle":"About Me",
 
   "aboutMeSection":"Introduction",

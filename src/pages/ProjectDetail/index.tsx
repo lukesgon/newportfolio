@@ -1,6 +1,7 @@
 import Main from "../../components/box/Main";
 import { useParams } from "react-router-dom";
-import projects from "../../content/Projects/index.json";
+import vanillaProjects from '../../content/Projects/Vanilla/index.json'
+import reactProjects from '../../content/Projects/React/index.json';
 import { useLang } from "../../contexts/LangContext";
 import Section from "../../components/box/Section";
 import ImgBox from "../../components/box/ImgBox";
@@ -10,7 +11,8 @@ import ProjectLink from "../../components/buttons/ProjectLink";
 const ProjectDetail = () => {
   const { library } = useLang();
   const { id } = useParams();
-  const project = projects.find((p) => p.id === id);
+  const mergedJson = [...vanillaProjects, ...reactProjects]
+  const project = mergedJson.find((p) => p.id === id);
 
   if (!project) {
     return (

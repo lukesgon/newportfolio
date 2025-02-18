@@ -1,0 +1,38 @@
+[
+  {
+    "id":"0",
+    "name":"Chaveiro Gelson",
+    "description":"chaveiroGelsonProject",
+    "fullDescription":"chaveiroGelsonProjectFullDescription",
+    "img":"/src/img/projects/vanilla/chaveiroGelson.webp",
+    "imgAlt":"Chaveiro Gelson Page",
+    "techs":["HTML", "CSS", "JavaScript", "FireBase"],
+    "repo": "https://github.com/lukesgon/chaveiro-gelson",
+    "preview": "https://chaveirogelson.com.br/",
+    "detail": "/portfolio/0"
+  },
+  {
+    "id":"1",
+    "name":"To-do List",
+    "description":"toDoProject",
+    "fullDescription":"toDoProjectFullDescription",
+    "img":"/src/img/projects/vanilla/todoList.webp",
+    "imgAlt":"Preview To-do List Page",
+    "techs":["HTML", "CSS", "JavaScript"],
+    "repo": "https://github.com/lukesgon/to-doList",
+    "preview": "https://lukesgon.github.io/to-doList/",
+    "detail": "/portfolio/1"
+  },
+  {
+    "id":"2",
+    "name":"iFood Landing Page",
+    "description":"iFoodProject",
+    "fullDescription":"iFoodProjectFullDescription",
+    "img":"/src/img/projects/vanilla/iFoodLandingPage.webp",
+    "imgAlt":"Preview iFood Landing Page",
+    "techs":["HTML", "CSS"],
+    "repo": "https://github.com/lukesgon/ifood-project-page",
+    "preview": "https://lukesgon.github.io/ifood-project-page/",
+    "detail": "/portfolio/2"
+  }
+]

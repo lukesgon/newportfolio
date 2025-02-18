@@ -6,6 +6,7 @@ import TypeScriptIcon from "../../components/icons/StackIcons/TypeScriptIcon";
 import ReactIcon from "../../components/icons/StackIcons/ReactIcon";
 import NodeIcon from "../../components/icons/StackIcons/NodeIcon";
 import PythonIcon from "../../components/icons/StackIcons/PythonIcon";
+import FirebaseIcon from "../../components/icons/StackIcons/FireBaseIcon";
 
 const techList = [
   {
@@ -40,6 +41,10 @@ const techList = [
     name: 'Python',
     component: PythonIcon,
   },
+  {
+    name: 'FireBase',
+    component: FirebaseIcon,
+  }
 ];
 
 export default techList;

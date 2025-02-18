@@ -5,7 +5,8 @@ import { ThemeProps } from "../../contexts/ThemeContext";
 import { useLang } from "../../contexts/LangContext";
 import ProjectSection from "../../components/box/ProjectSection";
 import Section from "../../components/box/Section";
-import Projects from '../../content/Projects/index.json';
+import VanillaProjects from '../../content/Projects/Vanilla/index.json';
+import ReactProjects from '../../content/Projects/React/index.json';
 import ProjectSpreader from "../../components/Utils/ProjectSpreader";
 
 interface HeaderProps {
@@ -13,7 +14,7 @@ interface HeaderProps {
 }
 
 const StyledHeader = styled.h1<HeaderProps>`
-  color: ${(props) => props.$theme.colors.tertiary};
+  color: ${(props) => props.$theme.colors.primary};
   font-size: 2rem;
   padding-bottom: 1rem;
 `;
@@ -27,8 +28,14 @@ const Portfolio = () => {
       <StyledHeader $theme={$theme}>{library.portfolioHeader}</StyledHeader>
       <ProjectSection title="Front-End" sub="vanilla.js">
         <i>{library.vanillaJSDescription}</i>
-        <Section $direction="row" $justify="center" $width="100%" $custom="max-width: 100%;">
-          <ProjectSpreader projects={Projects}/>
+        <Section $direction="row" $justify="center" $width="100%" $custom="max-width: 100%; gap: 1rem; flex-wrap: wrap;">
+          <ProjectSpreader projects={VanillaProjects}/>
+        </Section>
+      </ProjectSection>
+      <ProjectSection title="Front-End" sub="React.js">
+        <i>{library.reactJSDescription}</i>
+        <Section $direction="row" $justify="center" $width="100%" $custom="max-width: 100%; gap: 1rem; flex-wrap: wrap;">
+          <ProjectSpreader projects={ReactProjects}/>
         </Section>
       </ProjectSection>
     </Main>

@@ -16,7 +16,7 @@ const StyledAnchor = styled.a`
   border: none;
   background-color: transparent;
   text-decoration: none;
-  width: 33%;
+  width: fit-content;
   height: fit-content;
   border: solid 3px var(--color-4);
 
@@ -32,7 +32,7 @@ const StyledAnchor = styled.a`
 
 const StyledHeader = styled.h4`
   font-size: 1.5rem;
-`
+`;
 
 const ProjectCard = ({
   projectTitle,
@@ -41,9 +41,8 @@ const ProjectCard = ({
   imgCaption,
   projectHref,
 }: ProjectCardProps) => {
-  
-  const {library} = useLang();
-  
+  const { library } = useLang();
+
   return (
     <StyledAnchor href={projectHref}>
       <Article
@@ -52,21 +51,29 @@ const ProjectCard = ({
         $backgroundColor="var(--color-4)"
         $color="var(--color-2)"
         $padding="0.5rem 0 1rem"
-        $custom="gap: 10px; &:hover {background-color:var(--color-3); color: var(--color-1)}"
+        $custom="min-height: 490px; max-width: 300px; gap: 10px; &:hover {background-color:var(--color-3); color: var(--color-1)} @media (orientation:portrait) {max-width: 100%}"
         $align="center"
+        $justify="space-between"
       >
-        <Section>
-          <StyledHeader>{projectTitle}</StyledHeader>
+        <Section $align="center" $width="100%" $custom="gap:10px;">
+          <Section>
+            <StyledHeader>{projectTitle}</StyledHeader>
+          </Section>
+          <ImgBox
+            src={imgSrc}
+            alt={imgAlt}
+            $figcaption={imgCaption}
+            $width="100%"
+            $height="fit-content"
+            $custom="border: solid 3px var(--color-3);"
+          />
         </Section>
-        <ImgBox
-          src={imgSrc}
-          alt={imgAlt}
-          $figcaption={imgCaption}
+        <Section
+          $custom="font-size: 0.9rem; text-align: center; overflow: hidden;"
           $width="100%"
-          $height="fit-content"
-          $custom="border: solid 3px var(--color-3);"
-        />
-        <Section $custom="font-size: 0.9rem">
+          $justify="center"
+          $align="center"
+        >
           <strong>{library.projectDetails}</strong>
         </Section>
       </Article>
