@@ -22,6 +22,8 @@ const StyledFigure = styled.figure<Partial<ImgBoxProps>>`
   figcaption {
     font-size: 0.85rem;
     padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
   }
 `;
 

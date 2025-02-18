@@ -9,6 +9,10 @@ import InfoResumeBox from "../../components/box/InfoResumeBox";
 import { useDetailsContext } from "../../contexts/DetailContext";
 import SkillBox from "../../components/box/SkillBox";
 import SoftSkill from "../../components/box/SoftSkill";
+import StyledAnchor from "../../components/buttons/StyledAnchor";
+import ImgBox from "../../components/box/ImgBox";
+import bgdImg from "../../img/bdgproject.webp";
+import tesseractImg from "../../img/tesseract.webp";
 
 const StyledHeader = styled.h1`
   color: var(--color-3);
@@ -34,10 +38,14 @@ const Resume = () => {
         <StyledHeader>{library.resumeTitle}</StyledHeader>
         <CVLink />
       </Section>
-      <ResumeSection title={library.aboutMeSection}>
+      <ResumeSection $detailed={false} title={library.aboutMeSection}>
         <p>{library.aboutMe}</p>
       </ResumeSection>
-      <ResumeSection title={library.educationSection} $custom="gap: 1rem;">
+      <ResumeSection
+        $detailed={false}
+        title={library.educationSection}
+        $custom="gap: 1rem;"
+      >
         <InfoResumeBox
           $theme={$theme}
           $title={library.educationDegree}
@@ -58,7 +66,11 @@ const Resume = () => {
         </InfoResumeBox>
       </ResumeSection>
 
-      <ResumeSection title={library.professionalSection} $custom="gap: 1rem;">
+      <ResumeSection
+        $detailed={false}
+        title={library.professionalSection}
+        $custom="gap: 1rem;"
+      >
         {details && (
           <>
             <InfoResumeBox
@@ -109,9 +121,14 @@ const Resume = () => {
           $detail={false}
         >
           <em>
-            <a href="https://chaveirogelson.com.br" target="_blank">
+            <StyledAnchor
+              $detailed={false}
+              $theme={$theme}
+              href="https://chaveirogelson.com.br"
+              target="_blank"
+            >
               Chaveiro Gelson
-            </a>{" "}
+            </StyledAnchor>{" "}
             (2024)
           </em>
           <p>{library.gelsonProjectDetail}</p>
@@ -138,12 +155,14 @@ const Resume = () => {
         >
           <p>{library.internUrbanMetricsDetail}</p>
           <small>
-            <a
+            <StyledAnchor
+              $theme={$theme}
+              $detailed={false}
               href="https://wp.ufpel.edu.br/urbanmetrics/files/2021/03/Help_UrbanMetrics.pdf"
               target="_blank"
             >
               {library.helpAccess}
-            </a>
+            </StyledAnchor>
           </small>
         </InfoResumeBox>
 
@@ -232,7 +251,11 @@ const Resume = () => {
         )}
       </ResumeSection>
 
-      <ResumeSection title={library.freeEducationSection} $custom="gap: 1rem">
+      <ResumeSection
+        $detailed={false}
+        title={library.freeEducationSection}
+        $custom="gap: 1rem"
+      >
         <InfoResumeBox
           $theme={$theme}
           $title={library.origamidUIBegin}
@@ -242,12 +265,14 @@ const Resume = () => {
         >
           <p>{library.origamidUIBeginDetail}</p>
           <small>
-            <a
+            <StyledAnchor
+              $theme={$theme}
+              $detailed={false}
               href="https://drive.google.com/drive/folders/1g0acb-cxCWVqvVaoJGc7A2aBRXvyM6tR?usp=sharing"
               target="_blank"
             >
               {library.certificateAccess}
-            </a>
+            </StyledAnchor>
           </small>
         </InfoResumeBox>
 
@@ -260,12 +285,14 @@ const Resume = () => {
         >
           <p>{library.adaTechDetail}</p>
           <small>
-            <a
+            <StyledAnchor
+              $theme={$theme}
+              $detailed={false}
               href="https://drive.google.com/drive/folders/1cEAbow3Sn4Sxp1uKWRLFNr-to6CKemJR?usp=drive_link"
               target="_blank"
             >
               {library.certificateAccess}
-            </a>
+            </StyledAnchor>
           </small>
         </InfoResumeBox>
 
@@ -278,14 +305,23 @@ const Resume = () => {
         >
           <p>{library.descomplicaDetail}</p>
           <small>
-            <a href="https://drive.google.com/drive/folders/1DNH8drmk9n9zQWlHO6IHhkvS6h5AuJH8?usp=sharing">
+            <StyledAnchor
+              $theme={$theme}
+              $detailed={false}
+              href="https://drive.google.com/drive/folders/1DNH8drmk9n9zQWlHO6IHhkvS6h5AuJH8?usp=sharing"
+              target="_blank"
+            >
               {library.certificateAccess}
-            </a>
+            </StyledAnchor>
           </small>
         </InfoResumeBox>
       </ResumeSection>
 
-      <ResumeSection title={library.skillsSection} $custom="gap:1rem;">
+      <ResumeSection
+        $detailed={false}
+        title={library.skillsSection}
+        $custom="gap:1rem;"
+      >
         <InfoResumeBox
           $title={library.hardSkills}
           $theme={$theme}
@@ -328,6 +364,9 @@ const Resume = () => {
               <SkillBox $color="#F6C83C" $bgColor="#326894">
                 Python
               </SkillBox>
+              <SkillBox $color="#F4C025" $bgColor="#EC7813">
+                Firebase
+              </SkillBox>
               <SkillBox $color="white" $bgColor="#E74D30">
                 GIT
               </SkillBox>
@@ -365,8 +404,8 @@ const Resume = () => {
                   Blender
                 </SkillBox>
 
-                <SkillBox $bgColor="white" $color="#306EB2">
-                  Revit
+                <SkillBox $bgColor="#86A522" $color="white">
+                  QGIS
                 </SkillBox>
 
                 <SkillBox $bgColor="#5DA105" $color="white">
@@ -426,11 +465,71 @@ const Resume = () => {
             >
               {library.softSkillAccountabilityDetail}
             </SoftSkill>
+            <SoftSkill
+              $theme={$theme}
+              $detailed={false}
+              $title={library.softSkillsLanguage}
+            >
+              {library.softSkillsLanguageDetail}
+            </SoftSkill>
           </Section>
         </InfoResumeBox>
       </ResumeSection>
 
-      <Section>Projetos Pessoais</Section>
+      {details && (
+        <ResumeSection
+          $detailed={true}
+          title={library.personalProjects}
+          $custom="gap:1rem;"
+        >
+          <InfoResumeBox $theme={$theme} $title="BordGameDay!" $detail>
+            <Section>
+              <p>{library.bgdProjectDetail1}</p>
+              <p>{library.bgdProjectDetail2}</p>
+              <ImgBox
+                src={bgdImg}
+                alt="BoardGameDay Img"
+                $width="70%"
+                $height="auto"
+                $custom="margin: 0.5rem 0 0 0; border: solid 3px var(--color-5)"
+                $figcaption={library.bgdFigCaption}
+              />
+              <p>{library.bgdProjectDetail3}</p>
+              <p>{library.bgdProjectDetail4}</p>
+            </Section>
+          </InfoResumeBox>
+
+          <InfoResumeBox $theme={$theme} $title="Tesseract_Lab" $detail>
+            <Section>
+              <p>{library.tesseractProjectDetail1}</p>
+              <p>{library.tesseractProjectDetail2}</p>
+              <p>{library.tesseractProjectDetail3}</p>
+              <ImgBox
+                src={tesseractImg}
+                alt="Tesseract_3D Image"
+                $width="70%"
+                $height="auto"
+                $custom="margin: 0.5rem 0 0 0; border: solid 3px var(--color-5)"
+                $figcaption={library.tesseractFigCaption}
+              />
+              <p>{library.tesseractProjectDetail4}</p>
+              <p>{library.tesseractProjectDetail5}</p>
+              <p>
+                {library.tesseractProjectDetail6}{" "}
+                <StyledAnchor
+                  href="https://instagram.com/tesseract_3d/"
+                  target="_blank"
+                  $theme={$theme}
+                  $detailed
+                >
+                  {library.tesseractClickHere}
+                </StyledAnchor>
+                .
+              </p>
+            </Section>
+          </InfoResumeBox>
+        </ResumeSection>
+      )}
     </Main>
   );
 };

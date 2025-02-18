@@ -75,7 +75,7 @@ const SettingBox = () => {
             </Section>
           </Section>
 
-          <Section $custom="fill: var(--color-2)">
+          <Section $custom="fill: var(--color-2); &:hover {fill:var(--color-5)};">
             <span>
               {library.detail}
               <TipIcon $width="18px" $tip={library.detailHelpText} />

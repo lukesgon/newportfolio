@@ -150,6 +150,26 @@
     "softSkillOrganization": "Senso de Organização",
     "softSkillOrganizationDetail": "Capacidade de estruturar tarefas e gerenciar o tempo de forma eficaz, garantindo que os processos fluam de maneira tranquila e as prioridades sejam atendidas sem comprometer a qualidade.",
     "softSkillAccountability": "Responsabilidade",
-    "softSkillAccountabilityDetail": "Comprometimento em cumprir tarefas com responsabilidade, garantindo que os objetivos sejam alcançados e assumindo a responsabilidade pelos resultados e decisões."
+    "softSkillAccountabilityDetail": "Comprometimento em cumprir tarefas com responsabilidade, garantindo que os objetivos sejam alcançados e assumindo a responsabilidade pelos resultados e decisões.",
+    "softSkillsLanguage":"Idiomas",
+    "softSkillsLanguageDetail":"Além do Português, meu idioma nativo, tenho nível intermediário em Inglês e Espanhol.",
+
+  "personalProjects":"Hobbies e Projetos Pessoais",
+    "bgdProject":"BoardGameDay!",
+    "bgdProjectDetail1":"Desde muito jovem, sempre gostei de jogos de todos os gêneros. Com a chegada da pandemia em 2020, e suas restrições, o gosto por jogos de tabuleiro se intensificou.",
+    "bgdProjectDetail2":"Durante o período de reclusão em casa com meus familiares, iniciei a construção de uma grande coleção. Isto, somado às visitas a uma loja de jogos de mesa local (que voltaram a ser frequentes com o fim da pandemia), Cúpula do Trovão, foi o gatilho perfeito para a criação do evento 'BoardGameDay', que, salvo exceções, ocorre uma vez ao mês nessa mesma loja.",
+    "bgdProjectDetail3":"O projeto é organizado em parceria com meu amigo Luca e a gerência da loja, que disponibiliza o espaço para que possamos reunir amantes do hobby e também apresentá-lo a novos jogadores.",
+    "bgdProjectDetail4":"Reconheço que a participação no hobby me trouxe diversos benefícios, além de ser uma ótima 'válvula de escape', é também uma excelente oportunidade para desenvolver habilidades sociais, além de trabalhar o raciocínio lógico e memorização.",
+    "bgdFigCaption":"Acervo disponibilizado no Evento.",
+
+  "tesseractProject": "Tesseract_Lab",
+    "tesseractProjectDetail1": "Durante a pandemia, aprofundei meus estudos sobre impressão 3D, especificamente no modelo FDM (Fused Deposition Modeling ou Modelagem por Deposição Fundida).",
+    "tesseractProjectDetail2": "Comecei com uma impressora simples, a EasyThreed X1, que trabalhava exclusivamente com filamentos de PLA, material que possui uma temperatura de fusão média de 190°C. Esse equipamento básico não contava com mesa aquecida nem um sistema de segurança contra entupimentos, o que mais tarde resultou em um defeito sério no motor.",
+    "tesseractProjectDetail3": "Posteriormente, tive a oportunidade de trabalhar em parceria com a Cúpula do Trovão (a mesma loja de jogos mencionada anteriormente) no desenvolvimento de miniaturas para jogos de RPG, utilizando a impressora Ender-3, um dos modelos de entrada mais populares na época.",
+    "tesseractProjectDetail4": "Paralelamente, também tive contato com um equipamento ainda mais avançado, a GT-Max3D H5 CORE, que possuía um volume de impressão muito maior e uma interface sofisticada para gerenciamento da impressão em tempo real. Essa experiência surgiu de um trabalho em parceria com meu curso de Arquitetura e Urbanismo, que tinha dois objetivos principais: aprofundar o conhecimento sobre o equipamento para compartilhá-lo com futuras gerações de alunos e avaliar a viabilidade da produção de armações para máscaras face shield durante o período pandêmico.",
+    "tesseractProjectDetail5": "O principal fruto desse trabalho em parceria com a faculdade foi a oportunidade que tive de ministrar um minicurso para alunos e professores da UFPel, demonstrando boas práticas e técnicas de tratamento dos modelos para impressão 3D.",
+    "tesseractProjectDetail6": "Pessoalmente, também organizei parte do material produzido em postagens na minha página pessoal do Instagram, a Tesseract_3D, a qual pode ser acessada",
+    "tesseractClickHere":"Clicando Aqui",
+    "tesseractFigCaption":"Modelos impressos com a EasyThreed."
 
 }

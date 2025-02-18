@@ -149,6 +149,25 @@
     "softSkillOrganization":"Sense of Organization",
     "softSkillOrganizationDetail":"Ability to structure tasks and manage time effectively, ensuring that processes run smoothly and priorities are met without compromising quality.",
     "softSkillAccountability":"Accountability",
-    "softSkillAccountabilityDetail":"Commitment to fulfilling tasks with accountability, ensuring that objectives are met and taking ownership of outcomes and decisions."
-  
+    "softSkillAccountabilityDetail":"Commitment to fulfilling tasks with accountability, ensuring that objectives are met and taking ownership of outcomes and decisions.",
+    "softSkillsLanguage":"Languages",
+    "softSkillsLanguageDetail":"Besides my native Portuguese, I have an intermediate level in English and Spanish.",
+
+  "personalProjects":"Personal Projects & Hobbies",
+    "bgdProject": "BoardGameDay!",
+    "bgdProjectDetail1": "Since a young age, I've always enjoyed games of all kinds. With the arrival of the pandemic in 2020, and its restrictions, my interest in board games intensified.",
+    "bgdProjectDetail2": "During the lockdown at home with my family, I began building a great collection. This, combined with visits to a local board game store (which became more frequent with the end of the pandemic), Cúpula do Trovão, was the perfect trigger for the creation of the 'BoardGameDay' event, which, with few exceptions, takes place once a month at the same store.",
+    "bgdProjectDetail3": "The project is organized in partnership with my friend Luca and the store management, which provides the space for us to gather board game enthusiasts and also introduce the hobby to new players.",
+    "bgdProjectDetail4": "I recognize that participating in the hobby has brought me many benefits. Besides being a great 'escape valve', it is also a wonderful opportunity to develop social skills, as well as work on logical reasoning and memorization.",
+    "bgdFigCaption": "Collection available at the event.",
+
+  "tesseractProject": "Tesseract_Lab",
+    "tesseractProjectDetail1": "During the pandemic, I deepened my studies in 3D printing, specifically in the FDM (Fused Deposition Modeling) method.",
+    "tesseractProjectDetail2": "I started with a basic 3D printer, the EasyThreed X1, which worked exclusively with PLA filaments, a material with a melting temperature of around 190°C. This simple device lacked a heated bed or an emergency system to handle clogs, which later resulted in a serious motor failure.",
+    "tesseractProjectDetail3": "Later, I had the opportunity to collaborate with Cúpula do Trovão (the same board game store mentioned earlier) in the development of RPG miniatures, using the Ender-3, one of the most popular entry-level 3D printers at the time.",
+    "tesseractProjectDetail4": "At the same time, I also worked with a more advanced machine, the GT-Max3D H5 CORE, which featured a much larger print volume and an advanced interface for real-time print management. This experience came through a collaboration with my Architecture and Urbanism course, which had two key goals: to gain in-depth knowledge about the equipment so it could be passed on to future students, and to assess the feasibility of producing face shield frames for use during the pandemic.",
+    "tesseractProjectDetail5": "The main result of this collaboration with the university was the opportunity to teach a workshop for students and professors at UFPel, demonstrating best practices and techniques for preparing models for 3D printing.",
+    "tesseractProjectDetail6": "Personally, I also organized part of the material produced into posts on my personal Instagram page, Tesseract_3D, which can be accessed by",
+    "tesseractClickHere":"Clicking Here",
+    "tesseractFigCaption":"Models printed with the EasyThreed"
 }
