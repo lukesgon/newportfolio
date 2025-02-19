@@ -11,8 +11,8 @@ import SkillBox from "../../components/box/SkillBox";
 import SoftSkill from "../../components/box/SoftSkill";
 import StyledAnchor from "../../components/buttons/StyledAnchor";
 import ImgBox from "../../components/box/ImgBox";
-import bgdImg from "../../img/bdgproject.webp";
-import tesseractImg from "../../img/tesseract.webp";
+import bgdImg from "/img/bdgproject.webp";
+import tesseractImg from "/img/tesseract.webp";
 
 const StyledHeader = styled.h1`
   color: var(--color-3);

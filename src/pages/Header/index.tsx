@@ -2,7 +2,7 @@ import NavBar from "../../components/box/NavBar";
 import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 import ImgBox from "../../components/box/ImgBox";
-import Logo from '../../img/devLucas.png';
+import Logo from '/img/devLucas.png';
 import SettingButton from "../../components/buttons/SettingButton";
 import { useState } from "react";
 import { createPortal } from "react-dom";
