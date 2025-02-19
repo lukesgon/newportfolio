@@ -8,6 +8,12 @@
   "detailHelpText": "This option serves to reveal or hide additional details about my professional life, as well as hobbies and other experiences not directly related to the field of technology.",
   "stack": "My Stack",
   "tools":"OTHERS",
+
+  "myServices": "My Services",
+    "makeSiteService": "Website Development",
+    "freeLanceService": "Freelance on Demand",
+    "makeDocService": "Technical Documentation",
+    "maintenanceService": "Website Maintenance",
   
   "contact":"Contact",
   "contactFragment1": "Or just copy by clicking on",
@@ -37,13 +43,15 @@
     "thisPortfolioProject": "(...) built not only to demonstrate the progression of my React skills...",
     "thisPortfolioProjectFullDescription": "My most recent project, this very page, was built not only to showcase the progression of my React skills but primarily to demonstrate other aspects that go beyond 'Lucas Developer.' In addition to a more advanced use of React, the page was built using libraries like typeIt, CSS animations, all to bring more dynamism. The CSS was entirely worked with styled components, and there was extensive use of contexts, both for page translation, styling, and even for presenting sections not directly related to my work as a developer. Additionally, great care was taken in working on the page's responsiveness, ensuring that it adapts to any type of screen.",
 
-    "todoTrackerProject": "The To-do Tracker was the natural evolution of my previous work on to-do lists.", 
+    "todoTrackerProject": "The To-do Tracker was the natural evolution of my previous work on to-do lists...", 
     "todoTrackerProjectFullDescription": "The To-do Tracker was the natural evolution of my previous work on to-do lists. In it, I had the opportunity to deepen my knowledge in React while developing a useful tool to continue my studies as a developer. The idea behind this app is not only to organize task lists within their respective projects and/or works but also to track (manually) the time dedicated to each task. Additionally, it allows you to view the total time for a project/work by summing the time spent on each task. Lastly, and not less importantly, it is possible to make pricing estimations for the work and filter tasks by date, with the help of react-calendar.",
 
     "portfolioV01Project": "The old version of my portfolio was my first major attempt with React.",
     "portfolioV01ProjectFullDescription": "The old version of my portfolio was my first major attempt with React. At the time, my knowledge of the library was still very superficial, which led to frequent direct DOM manipulations using vanilla JavaScript. Nevertheless, I achieved a relatively satisfactory result in its construction. The project was originally hosted on GitHub Pages and was essentially structured as a single-page application, with navigation through section IDs.",
 
   "resumeTitle":"About Me",
+
+  "cvLink":"https://drive.google.com/file/d/1dHpouh-Hv0aFN5WYqP66vU_5XWXinRXk/view?usp=sharing",
 
   "aboutMeSection":"Introduction",
   "aboutMe": "I am a web developer from Pelotas, RS, with a background in building technology and architecture, but always focused on technology. Throughout my journey, I explored 3D printing and honed my problem-solving skills. Recently, I completed the Front-End Development course at Ada.Tech and also took an introduction to web development at Faculdade Descomplica. I am curious and a generalist, with experience in HTML5, CSS3, JavaScript, React, Styled Components, and Bootstrap.",

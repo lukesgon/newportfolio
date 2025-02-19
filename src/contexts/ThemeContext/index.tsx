@@ -37,7 +37,7 @@ const darkTheme = {
 const lightTheme = {
   name: "light",
   colors: {
-    primary: "var(--color-1)",
+    primary: "var(--color-3)",
     secondary: "var(--color-3)",
     tertiary: "var(--color-4)",
     background: "var(--color-1)",

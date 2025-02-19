@@ -25,7 +25,7 @@ const CVLink = ()=> {
   const {library} = useLang();
 
   return(
-    <StyledLink href={library.cvLink}>
+    <StyledLink href={library.cvLink} target="_blank">
       CV Download
     </StyledLink>
   )

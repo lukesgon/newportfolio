@@ -26,16 +26,16 @@ const Portfolio = () => {
   return (
     <Main>
       <StyledHeader $theme={$theme}>{library.portfolioHeader}</StyledHeader>
-      <ProjectSection title="Front-End" sub="vanilla.js">
-        <i>{library.vanillaJSDescription}</i>
-        <Section $direction="row" $justify="center" $width="100%" $custom="max-width: 100%; gap: 1rem; flex-wrap: wrap;">
-          <ProjectSpreader projects={VanillaProjects}/>
-        </Section>
-      </ProjectSection>
       <ProjectSection title="Front-End" sub="React.js">
         <i>{library.reactJSDescription}</i>
         <Section $direction="row" $justify="center" $width="100%" $custom="max-width: 100%; gap: 1rem; flex-wrap: wrap;">
           <ProjectSpreader projects={ReactProjects}/>
+        </Section>
+      </ProjectSection>
+      <ProjectSection title="Front-End" sub="vanilla.js">
+        <i>{library.vanillaJSDescription}</i>
+        <Section $direction="row" $justify="center" $width="100%" $custom="max-width: 100%; gap: 1rem; flex-wrap: wrap;">
+          <ProjectSpreader projects={VanillaProjects}/>
         </Section>
       </ProjectSection>
     </Main>

@@ -1,15 +1,19 @@
 import Main from "../../components/box/Main";
 import ImgBox from "../../components/box/ImgBox";
 import Thumb from '../../img/lucas-dev.webp';
-// import { useLang } from "../../contexts/LangContext";
-// import { useDetailsContext } from "../../contexts/DetailContext";
+import { useLang } from "../../contexts/LangContext";
 import Section from "../../components/box/Section";
 import AutoCode from "../../components/Utils/AutoCode";
 import MyStack from "../../components/box/MyStack";
+import ServicesBox from "../../components/box/ServicesBox";
+import ServiceCard from "../../components/box/ServiceCard";
+import WebSiteIcon from "../../components/icons/WebSiteIcon";
+import FreelancerIcon from "../../components/icons/FreelancerIcon";
+import DocIcon from "../../components/icons/DocIcon";
+import MaintenanceIcon from "../../components/icons/MaintenanceIcon";
 
 const Home = ()=> {
-  // const { library } = useLang();
-  // const { details } = useDetailsContext();
+  const { library } = useLang();
 
   return(
     <Main>
@@ -20,6 +24,21 @@ const Home = ()=> {
         </Section>
       </Section>
       <MyStack />
+
+      <ServicesBox $title={library.myServices}>
+        <ServiceCard $title={library.makeSiteService} $width={13} $height={15}>
+          <WebSiteIcon fill="var(--color-2)" />
+        </ServiceCard>
+        <ServiceCard $title={library.freeLanceService} $width={15} $height={15}>
+          <FreelancerIcon fill="var(--color-2)" />
+        </ServiceCard>
+        <ServiceCard $title={library.makeDocService} $width={13} $height={15}>
+          <DocIcon fill="var(--color-2)" />
+        </ServiceCard>
+        <ServiceCard $title={library.maintenanceService} $width={13} $height={15}>
+          <MaintenanceIcon fill="var(--color-2)" />
+        </ServiceCard>
+      </ServicesBox>
     </Main>
   )
 };
