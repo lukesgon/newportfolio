@@ -7,7 +7,7 @@
     "img":"/src/img/projects/react/portfolioV1.webp",
     "imgAlt":"Portfolio v1 Page",
     "techs":["HTML", "CSS","JavaScript", "TypeScript", "React", "FireBase"],
-    "repo": "https://github.com/lukesgon/chaveiro-gelson",
+    "repo": "https://github.com/lukesgon/newportfolio",
     "preview": "/",
     "detail": "/portfolio/3"
   },
