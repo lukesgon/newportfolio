@@ -24,8 +24,8 @@
 
   "portfolioHeader": "Meus Projetos",
   
-  "vanillaJSDescription":"Sessão destinada aos meus projetos utilizando tecnologias básicas como HTML, CSS e JavaScript.",
-  "reactJSDescription":"Sessão destinada aos meus projetos utilizando tecnologias como React, Styled Components, TypeScript e outros.",
+  "vanillaJSDescription":"Seção destinada aos meus projetos utilizando tecnologias básicas como HTML, CSS e JavaScript.",
+  "reactJSDescription":"Seção destinada aos meus projetos utilizando tecnologias como React, Styled Components, TypeScript e outros.",
 
   "projectDetails": "Clique para mais Detalhes",
   "projectTechs": "Tecnologias",
@@ -44,7 +44,7 @@
     "toDoProjectFullDescription":"Este projeto foi desenvolvido como um exercício em grupo, durante o curso da Ada.Tech. Durante o módulo de front-end dinâmico, foi proposto que cada trio desenvolvesse um web app de ToDo. Em parceria com meus colegas Rodrigo Silva e Wild Barreto, desenvolvemos um sistema simples, que além de permitir o cadastro de tarefas, possibilita a edição, conclusão e exclusão de tarefas, com o diferencial de contar com um armazenamento persistente, fazendo uso do localStorage do navegador para a persistência de dados.",
 
     "thisPortfolioProject":"(...) construída não apenas pensando em demonstrar a progressão da minha habilidade com uso do React... ",
-    "thisPortfolioProjectFullDescription":"Meu projeto mais recente, esta mesma página, foi construída não apenas pensando em demonstrar a progressão da minha habilidade com uso do React, mas principalmente demonstrar outros aspectos que vão além do 'Lucas Desenvolvedor'. Além de contar com o uso mais aprofundado do React, a página foi construída utilizando bibliotecas como o typeIt, animações em CSS, tudo para trazer um maior dinamismo. O CSS foi todo trabalhado com styled components e foi feita uma ampla utilização de contextos, tanto no que tange a tradução da página, como estilização e até mesmo apresentação de sessões não diretamente ligadas ao meu trabalho como desenvolvedor. Além disso, houve grande preocupação em trabalhar a responsividade da página, de forma que ela ficou adequada a qualquer tipo de tela. ",
+    "thisPortfolioProjectFullDescription":"Meu projeto mais recente, esta mesma página, foi construída não apenas pensando em demonstrar a progressão da minha habilidade com uso do React, mas principalmente demonstrar outros aspectos que vão além do 'Lucas Desenvolvedor'. Além de contar com o uso mais aprofundado do React, a página foi construída utilizando bibliotecas como o typeIt, animações em CSS, tudo para trazer um maior dinamismo. O CSS foi todo trabalhado com styled components e foi feita uma ampla utilização de contextos, tanto no que tange a tradução da página, como estilização e até mesmo apresentação de seções não diretamente ligadas ao meu trabalho como desenvolvedor. Além disso, houve grande preocupação em trabalhar a responsividade da página, de forma que ela ficou adequada a qualquer tipo de tela. ",
 
     "todoTrackerProject":"O To-do Tracker foi a evolução natural dos meus trabalhos anteriores sobre todo list...",
     "todoTrackerProjectFullDescription":"O To-do Tracker foi a evolução natural dos meus trabalhos anteriores sobre todo list. Nele tive a oportunidade de aprofundar meus conhecimentos em React, ao passo em que desenvolvia uma ferramenta útil para continuar meus estudos enquanto desenvolvedor. A proposta por trás desse App, é não apenas poder organizar listas de tarefas em seus respectivos projetos e/ou trabalhos, mas também rastrear (manualmente) o tempo dedicado a cada tarefa, além de ser possível visualizar o tempo total de projeto/trabalho, a partir da somatória dos tempos acumulados em cada tarefa. Por fim, mas não menos importante, é possível realizar estimativas de precificação para os trabalhos e realizar a filtragem de tarefas por data, com auxílio do react-calendar.",
