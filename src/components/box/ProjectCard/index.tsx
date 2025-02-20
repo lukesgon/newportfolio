@@ -25,8 +25,8 @@ const StyledAnchor = styled.a`
   }
 
   @media (orientation: portrait) {
-    width: 100%;
-    max-width: 360px;
+    width: 99%;
+    max-width: 358px;
   }
 `;
 
