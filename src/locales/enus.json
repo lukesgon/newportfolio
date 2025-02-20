@@ -24,7 +24,7 @@
   "portfolioHeader": "My Projects",
   
   "vanillaJSDescription":"Section dedicated to my projects using basic technologies such as HTML, CSS, and JavaScript.",
-  "reactJSDescription":"Section dedicated to my projects using basic technologies such as React, Styled Components, TypeScript and others.",
+  "reactJSDescription":"Section dedicated to my projects using technologies such as React, Styled Components, TypeScript and others.",
 
   "projectDetails": "Click for more Details",
   "projectTechs": "Technologies",
