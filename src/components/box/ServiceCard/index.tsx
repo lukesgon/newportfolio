@@ -21,7 +21,7 @@ const ServiceCard = ({ children, $width, $height, $title }: ServiceCardProps) =>
     $width="49%"
     $height="fit-content"
     $color="var(--color-1)"
-    $backgroundColor="var(--color-3)"
+    $backgroundColor="transparent"
     $padding="0 0 1rem 0"
     $custom="@media (orientation:portrait){width:100%}"
     $align="center"

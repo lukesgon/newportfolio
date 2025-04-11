@@ -27,16 +27,16 @@ const Home = ()=> {
 
       <ServicesBox $title={library.myServices}>
         <ServiceCard $title={library.makeSiteService} $width={13} $height={15}>
-          <WebSiteIcon fill="var(--color-2)" />
+          <WebSiteIcon fill="var(--color-3)" />
         </ServiceCard>
         <ServiceCard $title={library.freeLanceService} $width={15} $height={15}>
-          <FreelancerIcon fill="var(--color-2)" />
+          <FreelancerIcon fill="var(--color-3)" />
         </ServiceCard>
         <ServiceCard $title={library.makeDocService} $width={13} $height={15}>
-          <DocIcon fill="var(--color-2)" />
+          <DocIcon fill="var(--color-3)" />
         </ServiceCard>
         <ServiceCard $title={library.maintenanceService} $width={13} $height={15}>
-          <MaintenanceIcon fill="var(--color-2)" />
+          <MaintenanceIcon fill="var(--color-3)" />
         </ServiceCard>
       </ServicesBox>
     </Main>
