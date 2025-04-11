@@ -15,8 +15,8 @@ const StyledSection = styled.section<Partial<StackSectionProps>>`
   background-color: transparent;
   overflow: hidden;
 
-  width: ${props=> props.$isHover ?'100%' :'2.3rem' };
-  height: 450px;
+  width: ${props=> props.$isHover ?'100%' :'2.1rem' };
+  height: 445px;
 
   cursor: default;
 
